@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import { classNames } from "../utils";
 
 class Home extends Component {
+  componentDidMount(){
+    document.title = "Saddam Sinatrya Jalu Mukti";
+  }
+  
   render() {
     return (
       <div>
