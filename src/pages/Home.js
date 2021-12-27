@@ -2,17 +2,17 @@ import { faBars, faFilePdf, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Disclosure } from "@headlessui/react";
 import React, { Component, Fragment } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { classNames } from "../utils";
 
 class Home extends Component {
-  componentDidMount(){
-    document.title = "Saddam Sinatrya Jalu Mukti";
-  }
-  
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Saddam Sinatrya Jalu Mukti</title>
+        </Helmet>
         <NavbarSection />
         <HeroSection />
       </div>
