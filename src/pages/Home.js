@@ -1,11 +1,20 @@
-import { faBars, faFilePdf, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCheckCircle,
+  faClock,
+  faFilePdf,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Disclosure } from "@headlessui/react";
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { classNames } from "../utils";
 import "animate.css";
+import FadeImage from "../components/atoms/FadeImage";
+import Text from "../components/atoms/Text";
+import ElevatedButton from "../components/molecules/ElevatedButton";
+import Navbar from "../components/organisms/Navbar";
+import InterestCard from "../components/molecules/InterestCard";
+import PingNotification from "../components/atoms/PingNotification";
 
 class Home extends Component {
   render() {
@@ -14,184 +23,158 @@ class Home extends Component {
         <Helmet>
           <title>Saddam Sinatrya Jalu Mukti</title>
         </Helmet>
-        <NavbarSection />
+        <Navbar />
         <HeroSection />
+        <QualificationSection />
       </div>
     );
   }
-}
-
-function NavbarSection() {
-  const navigation = [
-    { name: "About Me", href: "#", current: true },
-    { name: "Portfolio", href: "#", current: false },
-    { name: "Contacts", href: "#", current: false },
-  ];
-
-  return (
-    <Disclosure as="nav" className="bg-white border-b-2">
-      {({ open }) => (
-        <Fragment>
-          <div className="container">
-            <div className="relative flex items-center justify-between h-16">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <FontAwesomeIcon
-                      icon={faTimes}
-                      className="block h-6 w-6"
-                      aria-hidden="true"
-                    />
-                  ) : (
-                    <FontAwesomeIcon
-                      icon={faBars}
-                      className="block h-6 w-6"
-                      aria-hidden="true"
-                    />
-                  )}
-                </Disclosure.Button>
-              </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0-0 flex items-center">
-                  <img src="/images/logo.svg" alt="Logo" className="h-10" />
-                </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <Link
-                        key={item.name}
-                        to={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-900 hover:bg-gray-700 hover:text-white",
-                          "px-3 py-2 rounded-md text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <Disclosure.Panel className="sm:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-900 hover:bg-gray-700 hover:text-white",
-                    "block px-3 py-2 rounded-md text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
-              ))}
-            </div>
-          </Disclosure.Panel>
-        </Fragment>
-      )}
-    </Disclosure>
-  );
 }
 
 function HeroSection() {
   const interests = [
     {
       name: "Android App Development",
-      url: "/icons/icons8-flutter.svg",
+      src: "/icons/icons8-flutter.svg",
       alt: "Flutter",
+      href: "flutter.dev",
     },
     {
       name: "Web App Development",
-      url: "/icons/icons8-react.svg",
+      src: "/icons/icons8-react.svg",
       alt: "React",
+      href: "reactjs.org",
     },
-    { name: "Data Science", url: "/icons/icons8-python.svg", alt: "Python" },
+    {
+      name: "Data Science",
+      src: "/icons/icons8-python.svg",
+      alt: "Python",
+      href: "kaggle.com",
+    },
     {
       name: "Cryptocurrency & NFT",
-      url: "/icons/icons8-ethereum.svg",
+      src: "/icons/icons8-ethereum.svg",
       alt: "Ethereum",
+      href: "facebook.com/groups/kkpc.id",
     },
-    { name: "Metaverse", url: "/icons/icons8-meta.svg", alt: "Python" },
+    {
+      name: "Metaverse",
+      src: "/icons/icons8-meta.svg",
+      alt: "Metaverse",
+      href: "reddit.com/r/metaverse",
+    },
   ];
 
   return (
-    <main className="container py-10 sm:py-12 md:py-16 lg:py-20 min-h-screen">
-      <div className="flex flex-wrap items-center">
-        <div className="hidden md:block basis-2/6">
-          <div className="fade-image">
-            <img
-              src="/images/avatar.png"
-              alt="Avatar Meta"
-              className="w-100 animate__animated animate__fadeInUp"
-            />
+    <main className="container py-12 md:py-16 lg:py-20 grid grid-cols-none md:grid-cols-3 items-center md:gap-10 lg:gap-20">
+      <div className="hidden md:block">
+        <FadeImage
+          src="/images/avatar.png"
+          alt="Avatar Meta"
+          className="animate__animated animate__fadeInUp mb-4"
+        />
+        <Text caption className="text-center">
+          Auto Generated by&nbsp;
+          <Link to="//readyplayer.me" className="text-blue-600">
+            Ready Player Me
+          </Link>
+        </Text>
+      </div>
+      <div className="md:col-span-2">
+        <Text
+          headline4
+          className="text-indigo-600 animate__animated animate__slideInRight"
+        >
+          Introduce me,
+        </Text>
+        <Text
+          headline2
+          className="animate__animated animate__slideInRight mb-4 sm:max-w-4xl"
+        >
+          Saddam Sinatrya Jalu Mukti
+        </Text>
+        <Text
+          body1
+          className="animate__animated animate__slideInRight sm:max-w-xl mb-6"
+        >
+          A passionate and rational developer who wants to learn and evolve with
+          a team. Experienced with the latest cutting-edge development tools and
+          tech stack.
+        </Text>
+        <div className="animate__animated animate__slideInRight mb-6">
+          <Text headline5 className="mb-2">
+            My Interests
+          </Text>
+          <div className="grid grid-cols-none sm:grid-cols-2">
+            {interests.map((item) => (
+              <InterestCard
+                name={item.name}
+                src={item.src}
+                alt={item.alt}
+                href={item.href}
+              />
+            ))}
           </div>
-          <p className="text-center py-4 font-mono tracking-tighter">
-            Auto Generated by&nbsp;
-            <Link to="//readyplayer.me" className="text-blue-600">
-              Ready Player Me
-            </Link>
-          </p>
         </div>
-        <div className="basis-full md:basis-4/6 md:pl-10 lg:pl-20">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-indigo-600 font-mono animate__animated animate__slideInRight">
-            Introduce me,
-          </h3>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl tracking-tight font-extrabold text-gray-900 font-spaceMono animate__animated animate__slideInRight">
-            Saddam Sinatrya Jalu Mukti
-          </h1>
-          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 font-spaceMono animate__animated animate__slideInRight">
-            A passionate and rational developer who wants to learn and evolve
-            with a team. Experienced with the latest cutting-edge development
-            tools and tech stack.
-          </p>
-          <div className="my-4 animate__animated animate__slideInRight">
-            <h3 className="text-xl sm:text-1xl md:text-2xl font-bold font-mono mb-4">
-              My Interests
-            </h3>
-            <div className="grid grid-cols-2 gap-4">
-              {interests.map((item) => (
-                <div className="flex items-center gap-2">
-                  <img
-                    src={item.url}
-                    alt={item.alt}
-                    className="inline h-8 w-8"
-                  />
-                  <span className="font-mono text-gray-800 text-lg justify-self-start">
-                    {item.name}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-            <div className="rounded-md shadow">
-              <Link
-                to="#"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 drop-shadow-xl animate__animated animate__pulse animate__slow animate__infinite"
-              >
-                <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
-                <span className="font-spaceMono">Download CV</span>
-              </Link>
-            </div>
-          </div>
+        <div className="sm:flex sm:justify-center lg:justify-start">
+          <PingNotification>
+            <ElevatedButton>
+              <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
+              <span className="font-spaceMono">Download CV</span>
+            </ElevatedButton>
+          </PingNotification>
         </div>
       </div>
     </main>
+  );
+}
+
+function QualificationSection() {
+  const educations = [
+    {
+      name: "State University of Malang",
+      status: false,
+      description: "2019-2023 (Expected)",
+    },
+    {
+      name: "Boyolangu State Vocational High School 1",
+      status: true,
+      description: "2016-2019 (With Highest Grade)",
+    },
+  ];
+
+  return (
+    <section className="bg-gray-50">
+      <div className="container py-4 sm:py-6 md:py-8 lg:py-10 flex flex-wrap items-center">
+        <div className="basis-1/3">
+          <Text headline5 className="text-center">
+            <FontAwesomeIcon icon={faGraduationCap} /> Educations
+          </Text>
+          <div className="grid grid-cols-12 text-white">
+            {educations.map((item) => (
+              <div className="flex md:contents">
+                <div className="col-start-2 col-end-4 mr-10 md:mx-auto relative">
+                  <div className="h-full w-6 flex items-center justify-center">
+                    <div className="h-full w-1 bg-green-500 pointer-events-none"></div>
+                  </div>
+                  <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-green-500 shadow text-center">
+                    <FontAwesomeIcon
+                      icon={item.status ? faCheckCircle : faClock}
+                    />
+                  </div>
+                </div>
+                <div className="bg-green-500 col-start-4 col-end-12 p-4 rounded-xl my-4 mr-auto shadow-md w-full">
+                  <h3 className="font-semibold text-lg mb-1">{item.name}</h3>
+                  <p className="leading-tight text-justify w-full">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

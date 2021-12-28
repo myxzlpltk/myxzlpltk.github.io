@@ -14,6 +14,7 @@ module.exports = {
     fontFamily: {
       mono: ["Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
       spaceMono: ["Space Mono", "monospace"],
+      notoSansMono: ["Noto Sans Mono", "monospace"],
     },
     extend: {},
   },
