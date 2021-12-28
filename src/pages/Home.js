@@ -3,6 +3,7 @@ import {
   faClock,
   faFilePdf,
   faGraduationCap,
+  faHandPaper,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
@@ -85,7 +86,11 @@ function HeroSection() {
           headline4
           className="text-indigo-600 animate__animated animate__slideInRight"
         >
-          Introduce me,
+          <FontAwesomeIcon
+            icon={faHandPaper}
+            className="text-orange-500 mr-4 animate__animated animate__wobble animate__delay-1s animate__repeat-3"
+          />
+          <span>Introduce me,</span>
         </Text>
         <Text
           headline2
@@ -105,22 +110,34 @@ function HeroSection() {
           <Text headline5 className="mb-2">
             My Interests
           </Text>
-          <div className="grid grid-cols-none sm:grid-cols-2">
-            {interests.map((item) => (
-              <InterestCard
-                name={item.name}
-                src={item.src}
-                alt={item.alt}
-                href={item.href}
-              />
-            ))}
+          <div className="flex gap-0 sm:gap-4 md:gap-6">
+            <div className="shrink">
+              {interests.slice(0, 3).map((item) => (
+                <InterestCard
+                  name={item.name}
+                  src={item.src}
+                  alt={item.alt}
+                  href={item.href}
+                />
+              ))}
+            </div>
+            <div className="shrink">
+              {interests.slice(3).map((item) => (
+                <InterestCard
+                  name={item.name}
+                  src={item.src}
+                  alt={item.alt}
+                  href={item.href}
+                />
+              ))}
+            </div>
           </div>
         </div>
         <div className="sm:flex sm:justify-center lg:justify-start">
           <PingNotification>
             <ElevatedButton>
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
-              <span className="font-spaceMono">Download CV</span>
+              <span>Download CV</span>
             </ElevatedButton>
           </PingNotification>
         </div>

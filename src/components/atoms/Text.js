@@ -96,7 +96,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-sm font-notoSansMono font-normal tracking-wide"
+          "text-sm md:text-base lg:text-lg font-sourceCodePro font-normal tracking-wide"
         )}
       >
         {props.children}
@@ -107,7 +107,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs font-notoSansMono font-normal tracking-wide"
+          "text-xs md:text-sm lg:text-base font-sourceCodePro font-normal tracking-wide"
         )}
       >
         {props.children}
@@ -118,7 +118,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-sm font-notoSansMono font-medium tracking-wider"
+          "text-sm md:text-base font-sourceCodePro font-medium tracking-wider"
         )}
       >
         {props.children}
@@ -129,7 +129,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs font-notoSansMono font-normal tracking-wider"
+          "text-xs md:text-sm font-sourceCodePro font-normal italic tracking-normal"
         )}
       >
         {props.children}
@@ -140,7 +140,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs font-notoSansMono font-normal tracking-wide"
+          "text-xs md:text-sm font-sourceCodePro font-semibold tracking-normal"
         )}
       >
         {props.children}

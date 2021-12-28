@@ -1,15 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import Text from "../atoms/Text";
 
 function InterestCard(props) {
   return (
     <Link to={`//${props.href}`}>
-      <div className="inline-flex propss-center gap-2 interest-box hover:bg-gray-200 py-1 px-2 rounded-md cursor-pointer">
+      <div className="flex items-center gap-2 interest-box hover:bg-gray-200 py-1 px-2 rounded-md cursor-pointer">
         <img src={props.src} alt={props.alt} className="inline h-8 w-8" />
-        <span className="font-mono text-gray-800 text-lg justify-self-start">
-          {props.name}
-        </span>
+        <Text body1 className="justify-self-start text-gray-800">{props.name}</Text>
       </div>
     </Link>
   );

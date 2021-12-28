@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     container: {
       center: true,
@@ -12,11 +10,18 @@ module.exports = {
       },
     },
     fontFamily: {
-      mono: ["Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
+      mono: [
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation Mono",
+        "Courier New",
+        "monospace",
+      ],
       spaceMono: ["Space Mono", "monospace"],
-      notoSansMono: ["Noto Sans Mono", "monospace"],
+      sourceCodePro: ["Source Code Pro", "times new roman"],
     },
     extend: {},
   },
   plugins: [],
-}
+};

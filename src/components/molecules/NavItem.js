@@ -18,7 +18,7 @@ function NavItem(props) {
       )}
       aria-current={props.current ? "page" : undefined}
     >
-      <Text className="font-notoSansMono text-sm font-medium">
+      <Text className="font-sourceCodePro text-sm font-medium">
         {props.name}
       </Text>
     </Link>
