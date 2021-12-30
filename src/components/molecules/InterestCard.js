@@ -8,7 +8,7 @@ function InterestCard(props) {
     <Link to={`//${props.href}`}>
       <div className="flex items-center gap-2 interest-box hover:bg-gray-200 py-1 px-2 rounded-md cursor-pointer">
         <img src={props.src} alt={props.alt} className="inline h-8 w-8" />
-        <Text body1 className="justify-self-start text-gray-800">{props.name}</Text>
+        <Text body2 className="justify-self-start text-gray-800">{props.name}</Text>
       </div>
     </Link>
   );
