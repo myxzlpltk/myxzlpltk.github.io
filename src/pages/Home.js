@@ -1,20 +1,17 @@
-import {
-  faFilePdf,
-  faGraduationCap,
-  faHandPaper,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 import "animate.css";
-import FadeImage from "../components/atoms/FadeImage";
-import Text from "../components/atoms/Text";
+
+import React, { Component } from "react";
+import { faFilePdf, faHandPaper } from "@fortawesome/free-solid-svg-icons";
+
 import ElevatedButton from "../components/molecules/ElevatedButton";
-import Navbar from "../components/organisms/Navbar";
+import FadeImage from "../components/atoms/FadeImage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Helmet } from "react-helmet";
 import InterestCard from "../components/molecules/InterestCard";
+import { Link } from "react-router-dom";
+import Navbar from "../components/organisms/Navbar";
 import PingNotification from "../components/atoms/PingNotification";
-import Timeline from "../components/organisms/Timeline";
+import Text from "../components/atoms/Text";
 
 class Home extends Component {
   render() {
@@ -146,31 +143,9 @@ function HeroSection() {
 }
 
 function QualificationSection() {
-  const educations = [
-    {
-      name: "State University of Malang",
-      status: false,
-      description: "2019-2023 (Expected)",
-      href: "elektro.um.ac.id",
-    },
-    {
-      name: "Boyolangu State Vocational High School 1",
-      status: true,
-      description: "2016-2019 (With Highest Grade)",
-      href: "smkn1boyolangu.sch.id",
-    },
-  ];
-
   return (
-    <section className="bg-gray-50">
-      <div className="container py-12 md:py-16 lg:py-20 flex flex-wrap items-center">
-        <div className="basis-full md:basis-1/3">
-          <Text headline5 className="text-center mb-4 md:mb-8">
-            <FontAwesomeIcon icon={faGraduationCap} /> Educations
-          </Text>
-          <Timeline data={educations} />
-        </div>
-      </div>
+    <section className="bg-indigo-700">
+      <div className="container py-12 md:py-16 lg:py-20 flex flex-wrap items-center"></div>
     </section>
   );
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { classNames } from "../../utils";
+import PropTypes from "prop-types";
+import React from "react";
 import Text from "../atoms/Text";
+import { classNames } from "../../utils";
 
 function ElevatedButton(props) {
   return (
@@ -13,7 +13,9 @@ function ElevatedButton(props) {
         props.className
       )}
     >
-      <Text button className="text-white">{props.children}</Text>
+      <Text button className="text-white">
+        {props.children}
+      </Text>
     </Link>
   );
 }

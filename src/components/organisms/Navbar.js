@@ -1,11 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
 import { Disclosure } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { classNames } from "../../utils";
 import NavItem from "../molecules/NavItem";
+import PropTypes from "prop-types";
+import React from "react";
+import { classNames } from "../../utils";
 
 function Navbar(props) {
   const navigation = [

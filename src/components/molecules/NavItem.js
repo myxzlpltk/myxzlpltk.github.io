@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { classNames } from "../../utils";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import React from "react";
 import Text from "../atoms/Text";
+import { classNames } from "../../utils";
 
 function NavItem(props) {
   return (
