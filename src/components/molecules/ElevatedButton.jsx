@@ -7,7 +7,8 @@ import { classNames } from '../../utils';
 function ElevatedButton(props) {
 	return (
 		<Link
-			to="#"
+			to={props.to ? props.to :  "#"}
+			target={props.external ? "_blank" : ""}
 			className={classNames(
 				'rounded-md inline-flex items-center justify-center border border-transparent bg-indigo-600 hover:bg-indigo-700 drop-shadow-xl',
 				props.className,
@@ -24,7 +25,9 @@ function ElevatedButton(props) {
 ElevatedButton.propTypes = {
 	children: PropTypes.node.isRequired,
 	className: PropTypes.string,
-	compact: PropTypes.bool
+	compact: PropTypes.bool,
+	to: PropTypes.string,
+	external: PropTypes.bool
 };
 
 export default ElevatedButton;

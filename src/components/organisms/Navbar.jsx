@@ -1,19 +1,19 @@
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import {faBars, faTimes} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-import { Disclosure } from '@headlessui/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import NavItem from '../molecules/NavItem';
-import React from 'react';
+import {Disclosure} from "@headlessui/react";
+import React from "react";
+import NavItem from "../molecules/NavItem";
 
-function Navbar(props) {
+function Navbar() {
 	const navigation = [
-		{ name: 'About Me', href: '#', current: true },
-		{ name: 'Portfolio', href: '#', current: false },
-		{ name: 'Contacts', href: '#', current: false }
+		{ name: 'About Me', href: 'about-me' },
+		{ name: 'Portfolio', href: 'portfolio' },
+		{ name: 'Contacts', href: 'contacts' }
 	];
 
 	return (
-		<Disclosure as="nav" className="sticky top-0 z-50 bg-white border-b-2">
+		<Disclosure as="nav" className="fixed w-full top-0 z-50 bg-white border-b-2">
 			{({ open }) => (
 				<React.Fragment>
 					<div className="container">
@@ -42,7 +42,6 @@ function Navbar(props) {
 												key={`nav-item-${i}`}
 												name={item.name}
 												href={item.href}
-												current={item.current}
 											/>
 										))}
 									</div>
@@ -55,10 +54,9 @@ function Navbar(props) {
 						<div className="px-2 pt-2 pb-3 space-y-1">
 							{navigation.map((item, i) => (
 								<NavItem
-									key={`nav-item-${i}`}
+									key={`nav-item-block-${i}`}
 									name={item.name}
 									href={item.href}
-									current={item.current}
 									block
 								/>
 							))}

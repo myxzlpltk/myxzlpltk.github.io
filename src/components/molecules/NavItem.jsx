@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Text from '../atoms/Text';
@@ -9,12 +9,13 @@ function NavItem(props) {
 		<Link
 			key={props.name}
 			to={props.href}
+			activeClass="bg-indigo-900 text-white !important"
 			className={classNames(
-				props.current ? 'bg-indigo-900 text-white' : 'text-indigo-900 hover:bg-indigo-500 hover:text-white',
+				'hover:bg-indigo-500 hover:text-white',
 				props.block ? 'block w-full' : 'inline-block',
-				'px-3 py-2 rounded-md'
+				'px-3 py-2 rounded-md cursor-pointer'
 			)}
-			aria-current={props.current ? 'page' : undefined}
+			spy={true} smooth={true} offset={-64} duration={500}
 		>
 			<Text className="font-sourceCodePro text-sm font-medium">{props.name}</Text>
 		</Link>
@@ -24,7 +25,6 @@ function NavItem(props) {
 NavItem.propTypes = {
 	name: PropTypes.string.isRequired,
 	href: PropTypes.string.isRequired,
-	current: PropTypes.bool,
 	block: PropTypes.bool
 };
 
