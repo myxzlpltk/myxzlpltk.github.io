@@ -115,5 +115,20 @@
         "link": "myxzlpltk.github.io/burger"
       }
     ]
+  },
+  {
+    "name": "E-Brent",
+    "src": "/images/e-brent/0.jpg",
+    "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
+    "images": [
+      "/images/e-brent/0.jpg",
+      "/images/e-brent/1.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/rental-sepeda-flutter"
+      }
+    ]
   }
 ]
