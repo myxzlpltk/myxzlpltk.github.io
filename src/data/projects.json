@@ -23,7 +23,7 @@
   {
     "name": "e-Library",
     "src": "/images/e-library/0.jpg",
-    "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library.",
+    "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library. This system is designed to meet the needs of e-book publishing.",
     "images": [
       "/images/e-library/0.jpg",
       "/images/e-library/1.jpg",
@@ -38,6 +38,44 @@
       {
         "title": "Demo",
         "link": "bappeda.tulungagung.go.id/perpus"
+      }
+    ]
+  },
+  {
+    "name": "SIOTANG",
+    "src": "/images/siotang/0.jpg",
+    "description": "This project aims to make ask-for-hand-signature in formalities & bureaucracy easier during pandemics. Basically this is an information system for signing the approval sheet for industrial work practice proposals. Built for Electrical Engineering UM.",
+    "images": [
+      "/images/siotang/0.jpg",
+      "/images/siotang/1.jpg",
+      "/images/siotang/2.jpg",
+      "/images/siotang/3.jpg",
+      "/images/siotang/4.jpg",
+      "/images/siotang/5.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/praktekindustri"
+      }
+    ]
+  },
+  {
+    "name": "Fruit Parcel AI (Knapsack)",
+    "src": "/images/knapsack/0.jpg",
+    "description": "This project aims to solve the problem of finding the best combination of fruits to maximize the profit. The project is built using Dart and Flutter. The project is based on BFS algorithm for knapsack problem.",
+    "images": [
+      "/images/knapsack/0.jpg",
+      "/images/knapsack/1.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/knapsack-gui"
+      },
+      {
+        "title": "Demo",
+        "link": "myxzlpltk.github.io/knapsack-gui"
       }
     ]
   }

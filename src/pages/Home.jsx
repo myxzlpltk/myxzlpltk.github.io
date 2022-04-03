@@ -237,7 +237,7 @@ const PortfolioSection = () => {
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                   {project.buttons.map((button, i) => (
-                    <ElevatedButton key={`button-project-${i}`} compact to={`//${button.link}`}
+                    <ElevatedButton key={`button-project-${i}`} external compact to={`//${button.link}`}
                                     className="inline-block mx-2">
                       {button.title}
                     </ElevatedButton>
