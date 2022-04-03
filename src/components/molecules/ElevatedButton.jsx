@@ -14,6 +14,7 @@ function ElevatedButton(props) {
 				props.className,
 				props.compact ? 'px-4 py-1' : 'px-8 py-3 md:py-4 md:px-10'
 			)}
+			onClick={props.onClick}
 		>
 			<Text button className="text-white">
 				{props.children}
@@ -27,7 +28,8 @@ ElevatedButton.propTypes = {
 	className: PropTypes.string,
 	compact: PropTypes.bool,
 	to: PropTypes.string,
-	external: PropTypes.bool
+	external: PropTypes.bool,
+	onClick: PropTypes.func,
 };
 
 export default ElevatedButton;

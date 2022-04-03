@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Warung Semur (Serba Murah)",
+    "src": "/images/warung-semur/0.png",
+    "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
+    "images": [
+      "/images/warung-semur/0.png",
+      "/images/warung-semur/1.png",
+      "/images/warung-semur/2.png",
+      "/images/warung-semur/3.png"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/umkm-digital"
+      },
+      {
+        "title": "Guide Book",
+        "link": "docs.google.com/document/d/19R-w6XYAg62P8guDIWd_pv5KsxqmO9TZRm8GeVLgOZI/view?usp=sharing"
+      }
+    ]
+  }
+]

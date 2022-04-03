@@ -9,7 +9,7 @@ function NavItem(props) {
 		<Link
 			key={props.name}
 			to={props.href}
-			activeClass="bg-indigo-900 text-white !important"
+			activeClass="bg-indigo-900 text-white"
 			className={classNames(
 				'hover:bg-indigo-500 hover:text-white',
 				props.block ? 'block w-full' : 'inline-block',

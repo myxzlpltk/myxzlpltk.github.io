@@ -14,7 +14,7 @@ function ProjectCard(props) {
 				<Text subtitle1 className="text-white">
 					{props.name}
 				</Text>
-				<ElevatedButton compact className="inline-block">
+				<ElevatedButton compact className="inline-block" onClick={props.onClick}>
 					<span className="mr-1">More Info</span>
 				</ElevatedButton>
 			</div>
@@ -24,7 +24,8 @@ function ProjectCard(props) {
 
 ProjectCard.propTypes = {
 	name: PropTypes.string.isRequired,
-	src: PropTypes.string.isRequired
+	src: PropTypes.string.isRequired,
+	onClick: PropTypes.func.isRequired,
 };
 
 export default ProjectCard;
