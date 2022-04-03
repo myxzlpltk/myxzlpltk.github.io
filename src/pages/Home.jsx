@@ -66,7 +66,7 @@ const HeroSection = () => {
 	];
 
 	return (
-		<main className="container pt-16 md:py-20 lg:py-24 pb-12 md:pb-16 lg:pb-20  grid grid-cols-none md:grid-cols-3 items-center md:gap-10 lg:gap-20" id="about-me">
+		<main className="container py-12 md:py-16 lg:py-20 grid grid-cols-none md:grid-cols-3 items-center md:gap-10 lg:gap-20" id="about-me">
 			<div className="hidden md:block">
 				<FadeImage
 					src="/images/avatar.png"

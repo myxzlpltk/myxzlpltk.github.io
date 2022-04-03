@@ -13,7 +13,7 @@ function Navbar() {
 	];
 
 	return (
-		<Disclosure as="nav" className="fixed w-full top-0 z-50 bg-white border-b-2">
+		<Disclosure as="nav" className="sticky top-0 z-50 bg-white border-b-2">
 			{({ open }) => (
 				<React.Fragment>
 					<div className="container">
