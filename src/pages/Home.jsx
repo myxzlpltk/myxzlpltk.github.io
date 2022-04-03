@@ -147,7 +147,7 @@ const HeroSection = () => {
 };
 
 const PortfolioSection = () => {
-	let [open, setOpen] = useState(true);
+	let [open, setOpen] = useState(false);
 	let [project, setProject] = useState(projects[0])
 
 	return (

@@ -1,13 +1,13 @@
 [
   {
     "name": "Warung Semur (Serba Murah)",
-    "src": "/images/warung-semur/0.png",
+    "src": "/images/warung-semur/0.jpg",
     "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
     "images": [
-      "/images/warung-semur/0.png",
-      "/images/warung-semur/1.png",
-      "/images/warung-semur/2.png",
-      "/images/warung-semur/3.png"
+      "/images/warung-semur/0.jpg",
+      "/images/warung-semur/1.jpg",
+      "/images/warung-semur/2.jpg",
+      "/images/warung-semur/3.jpg"
     ],
     "buttons": [
       {
