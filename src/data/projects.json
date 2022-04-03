@@ -78,5 +78,42 @@
         "link": "myxzlpltk.github.io/knapsack-gui"
       }
     ]
+  },
+  {
+    "name": "Mulyotani",
+    "src": "/images/mulyotani/0.jpg",
+    "description": "A simple landing page to promote automatic bird repellent device called \"Mulyotani\". So that rice plants can thrive and be free from pests.",
+    "images": [
+      "/images/mulyotani/0.jpg",
+      "/images/mulyotani/1.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/mulyotani"
+      },
+      {
+        "title": "Demo",
+        "link": "myxzlpltk.github.io/mulyotani"
+      }
+    ]
+  },
+  {
+    "name": "Burger",
+    "src": "/images/burger/0.jpg",
+    "description": "A simple burger web application that allows users to order burgers using drag and drop mechanism. The project is built using Javascript Drag Events.",
+    "images": [
+      "/images/burger/0.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/burger"
+      },
+      {
+        "title": "Demo",
+        "link": "myxzlpltk.github.io/burger"
+      }
+    ]
   }
 ]

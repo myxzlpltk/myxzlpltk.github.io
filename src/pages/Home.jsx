@@ -170,7 +170,7 @@ const PortfolioSection = () => {
       </section>
       <section className="-mt-10 mb-8">
         <div
-          className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center gap-4 mb-8">
+          className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
           {projects.map((item, i) => (
             <ProjectCard
               key={`projects-${i}`}
@@ -236,6 +236,9 @@ const PortfolioSection = () => {
                   </div>
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                  <ElevatedButton key="button-close" compact to="#"
+                                  className="inline-block mx-2 bg-red-600 hover:bg-red-700"
+                                  onClick={() => setOpen(false)}>Close</ElevatedButton>
                   {project.buttons.map((button, i) => (
                     <ElevatedButton key={`button-project-${i}`} external compact to={`//${button.link}`}
                                     className="inline-block mx-2">
