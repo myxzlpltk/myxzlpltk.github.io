@@ -19,5 +19,26 @@
         "link": "docs.google.com/document/d/19R-w6XYAg62P8guDIWd_pv5KsxqmO9TZRm8GeVLgOZI/view?usp=sharing"
       }
     ]
+  },
+  {
+    "name": "e-Library",
+    "src": "/images/e-library/0.jpg",
+    "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library.",
+    "images": [
+      "/images/e-library/0.jpg",
+      "/images/e-library/1.jpg",
+      "/images/e-library/2.jpg",
+      "/images/e-library/3.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/myxzlpltk/e-library"
+      },
+      {
+        "title": "Demo",
+        "link": "bappeda.tulungagung.go.id/perpus"
+      }
+    ]
   }
 ]
