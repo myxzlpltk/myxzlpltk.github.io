@@ -130,5 +130,19 @@
         "link": "github.com/myxzlpltk/rental-sepeda-flutter"
       }
     ]
+  },
+  {
+    "name": "Smart School",
+    "src": "/images/smart-school/0.jpg",
+    "description": "A private projects or ecosystem about multi-apps that connected via single login SAML. This projects aims to digitalize school system.",
+    "images": [
+      "/images/smart-school/0.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "github.com/orgs/esemkita/dashboard"
+      }
+    ]
   }
 ]
