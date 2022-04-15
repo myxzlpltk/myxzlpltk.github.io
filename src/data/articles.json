@@ -1,0 +1,22 @@
+[
+  {
+    "imageUrl": "https://www.datocms-assets.com/14946/1590690600-front-end-back-end-1080x608.png?auto=format&h=480&w=640",
+    "title": "Frontend Dev vs Backend Dev: Duo yang tak terpisahkan",
+    "description": "Pernahkah kamu bertanya-tanya apa yang dilakukan frontend dan backend developer setiap harinya? Ketika kamu membuka tab browser, lalu mengetik url dan menekan enter.",
+    "tags": [
+      "#FrontEnd",
+      "#BackEnd"
+    ],
+    "url": "https://medium.com/@myxzlpltk/frontend-dev-vs-backend-dev-duo-yang-tak-terpisahkan-56ad1475f8de"
+  },
+  {
+    "imageUrl": "https://miro.medium.com/max/513/1*sHCQdmgYLjIlgWQSvsdnUA.png",
+    "title": "Cara menginstall SQL Server Developer Edition",
+    "description": "Pada tutorial kali ini, kita akan belajar cara menginstall SQL Server Developer Edition. Pertama unduh berkas executable terlebih dahulu di situs SQL Server.",
+    "tags": [
+      "#SQLServer",
+      "#Database"
+    ],
+    "url": "https://medium.com/@myxzlpltk/how-to-install-sql-server-developer-edition-7f1fa8070ee4"
+  }
+]

@@ -13,11 +13,13 @@ import {Fragment} from "react/cjs/react.production.min";
 import FadeImage from "../components/atoms/FadeImage";
 import PingNotification from "../components/atoms/PingNotification";
 import Text from "../components/atoms/Text";
+import ArticleCard from "../components/molecules/ArticleCard";
 
 import ElevatedButton from "../components/molecules/ElevatedButton";
 import InterestCard from "../components/molecules/InterestCard";
 import ProjectCard from "../components/molecules/ProjectCard";
 import Navbar from "../components/organisms/Navbar";
+import articles from "../data/articles";
 import projects from "../data/projects";
 
 class Home extends Component {
@@ -30,6 +32,7 @@ class Home extends Component {
         <Navbar />
         <HeroSection />
         <PortfolioSection />
+        <ArticlesSection />
         <ContactSection />
       </div>
     );
@@ -228,7 +231,7 @@ const PortfolioSection = () => {
                     <Carousel className="mb-2">
                       {project.images.map((image, i) => (
                         <div key={`carousel-${i}`}>
-                          <img src={image} alt={`Image ${i + 1}`} />
+                          <img src={image} alt={`Carousel ${i + 1}`} />
                         </div>
                       ))}
                     </Carousel>
@@ -255,10 +258,31 @@ const PortfolioSection = () => {
   );
 };
 
+const ArticlesSection = () => {
+  return (
+    <section className="bg-white" id="articles">
+      <div className="container py-6 md:py-8 lg:py-10">
+        <Text headline4 className="text-left mb-4">Read My Articles</Text>
+        <div className="grid grid-cols-5 gap-4">
+          {articles.map((article, i) => (
+            <div key={`article-${i}`}>
+              <ArticleCard imageUrl={article.imageUrl}
+                           title={article.title}
+                           description={article.description}
+                           tags={article.tags}
+                           url={article.url} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
 const ContactSection = () => {
   let contacts = [
-    {icon: faTwitter, href: "http://twitter.com/myxzlpltk", name: "Twitter"},
-    {icon: faGithub, href: "http://github.com/myxzlpltk", name: "Github"},
+    {icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter"},
+    {icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github"},
     {icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email"},
   ];
 
