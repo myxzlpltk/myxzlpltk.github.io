@@ -4,8 +4,7 @@
     "title": "Face Mask Detection With ResNet50 and SVM + Decision Tree",
     "description": "Welcome, this post is a quick explanation on how I build mask detection using ResNet50 as feature extractor and then use Support Vector Machine (SVM) + Decision Tree with stacking ensemble method as classifier.",
     "tags": [
-      "#ComputerVision",
-      "#MachineLearning"
+      "#ComputerVision"
     ],
     "url": "https://dev.to/myxzlpltk/face-mask-detection-with-resnet50-and-svm-decision-tree-39fk"
   },
