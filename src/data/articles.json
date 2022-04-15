@@ -1,5 +1,15 @@
 [
   {
+    "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rt59tyvz73z0xtzod8gf.png",
+    "title": "Face Mask Detection With ResNet50 and SVM + Decision Tree",
+    "description": "Welcome, this post is a quick explanation on how I build mask detection using ResNet50 as feature extractor and then use Support Vector Machine (SVM) + Decision Tree with stacking ensemble method as classifier.",
+    "tags": [
+      "#ComputerVision",
+      "#MachineLearning"
+    ],
+    "url": "https://dev.to/myxzlpltk/face-mask-detection-with-resnet50-and-svm-decision-tree-39fk"
+  },
+  {
     "imageUrl": "https://www.datocms-assets.com/14946/1590690600-front-end-back-end-1080x608.png?auto=format&h=480&w=640",
     "title": "Frontend Dev vs Backend Dev: Duo yang tak terpisahkan",
     "description": "Pernahkah kamu bertanya-tanya apa yang dilakukan frontend dan backend developer setiap harinya? Ketika kamu membuka tab browser, lalu mengetik url dan menekan enter.",
