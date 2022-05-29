@@ -15,7 +15,7 @@ function NavItem(props) {
         props.block ? "block w-full" : "inline-block",
         "px-3 py-2 rounded-md cursor-pointer",
       )}
-      spy={true} smooth={true} offset={-64} duration={500}
+      spy={true} smooth={true} offset={-66} duration={500}
     >
       <Text className="font-sourceCodePro text-sm font-medium">{props.name}</Text>
     </Link>

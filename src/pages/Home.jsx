@@ -46,31 +46,31 @@ const HeroSection = () => {
       name: "Android App Development",
       src: "/icons/icons8-flutter.svg",
       alt: "Flutter",
-      href: "flutter.dev",
+      href: "https://flutter.dev",
     },
     {
       name: "Web App Development",
       src: "/icons/icons8-react.svg",
       alt: "React",
-      href: "reactjs.org",
+      href: "https://reactjs.org",
     },
     {
       name: "Data Science",
       src: "/icons/icons8-python.svg",
       alt: "Python",
-      href: "kaggle.com",
+      href: "https://kaggle.com",
     },
     {
       name: "Cryptocurrency & NFT",
       src: "/icons/icons8-ethereum.svg",
       alt: "Ethereum",
-      href: "facebook.com/groups/kkpc.id",
+      href: "https://facebook.com/groups/kkpc.id",
     },
     {
       name: "Metaverse",
       src: "/icons/icons8-meta.svg",
       alt: "Metaverse",
-      href: "reddit.com/r/metaverse",
+      href: "https://reddit.com/r/metaverse",
     },
   ];
 
@@ -142,7 +142,7 @@ const HeroSection = () => {
         <div className="sm:flex sm:justify-center lg:justify-start">
           <PingNotification>
             <ElevatedButton external
-                            to="//docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
+                            to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
               <span>Download CV</span>
             </ElevatedButton>
@@ -180,7 +180,8 @@ const PortfolioSection = () => {
               key={`projects-${i}`}
               name={item.name}
               src={item.src}
-              onClick={() => {
+              onClick={(event) => {
+                event.stopPropagation();
                 setOpen(true);
                 setProject(item);
               }}
@@ -188,7 +189,7 @@ const PortfolioSection = () => {
           ))}
         </div>
         <div className="container flex justify-center">
-          <ElevatedButton external to="//github.com/myxzlpltk">
+          <ElevatedButton external to="https://github.com/myxzlpltk">
             <FontAwesomeIcon icon={faGithub} className="mr-4" />
             <span>See more at Github</span>
           </ElevatedButton>
@@ -240,11 +241,11 @@ const PortfolioSection = () => {
                   </div>
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-                  <ElevatedButton key="button-close" compact to="#"
+                  <ElevatedButton key="button-close" compact to="javascript:void"
                                   className="inline-block mx-2 bg-red-600 hover:bg-red-700"
                                   onClick={() => setOpen(false)}>Close</ElevatedButton>
                   {project.buttons.map((button, i) => (
-                    <ElevatedButton key={`button-project-${i}`} external compact to={`//${button.link}`}
+                    <ElevatedButton key={`button-project-${i}`} external compact to={button.link}
                                     className="inline-block mx-2">
                       {button.title}
                     </ElevatedButton>
@@ -306,7 +307,7 @@ const ContactSection = () => {
             </div>
             <div className="flex-1">
               <div className="flex items-center justify-center">
-                <ElevatedButton>
+                <ElevatedButton to="javascript:void">
                   <span>Let's do this!</span>
                 </ElevatedButton>
               </div>

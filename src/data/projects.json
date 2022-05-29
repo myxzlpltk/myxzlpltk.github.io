@@ -12,11 +12,11 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/umkm-digital"
+        "link": "https://github.com/myxzlpltk/umkm-digital"
       },
       {
         "title": "Guide Book",
-        "link": "docs.google.com/document/d/19R-w6XYAg62P8guDIWd_pv5KsxqmO9TZRm8GeVLgOZI/view?usp=sharing"
+        "link": "https://docs.google.com/document/d/19R-w6XYAg62P8guDIWd_pv5KsxqmO9TZRm8GeVLgOZI/view?usp=sharing"
       }
     ]
   },
@@ -33,11 +33,11 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/e-library"
+        "link": "https://github.com/myxzlpltk/e-library"
       },
       {
         "title": "Demo",
-        "link": "bappeda.tulungagung.go.id/perpus"
+        "link": "https://bappeda.tulungagung.go.id/perpus"
       }
     ]
   },
@@ -56,7 +56,7 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/praktekindustri"
+        "link": "https://github.com/myxzlpltk/praktekindustri"
       }
     ]
   },
@@ -71,11 +71,11 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/knapsack-gui"
+        "link": "https://github.com/myxzlpltk/knapsack-gui"
       },
       {
         "title": "Demo",
-        "link": "myxzlpltk.github.io/knapsack-gui"
+        "link": "https://myxzlpltk.github.io/knapsack-gui"
       }
     ]
   },
@@ -90,11 +90,11 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/mulyotani"
+        "link": "https://github.com/myxzlpltk/mulyotani"
       },
       {
         "title": "Demo",
-        "link": "myxzlpltk.github.io/mulyotani"
+        "link": "https://myxzlpltk.github.io/mulyotani"
       }
     ]
   },
@@ -108,11 +108,11 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/burger"
+        "link": "https://github.com/myxzlpltk/burger"
       },
       {
         "title": "Demo",
-        "link": "myxzlpltk.github.io/burger"
+        "link": "https://myxzlpltk.github.io/burger"
       }
     ]
   },
@@ -127,7 +127,7 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/myxzlpltk/rental-sepeda-flutter"
+        "link": "https://github.com/myxzlpltk/rental-sepeda-flutter"
       }
     ]
   },
@@ -141,7 +141,7 @@
     "buttons": [
       {
         "title": "Github",
-        "link": "github.com/orgs/esemkita/dashboard"
+        "link": "https://github.com/orgs/esemkita/dashboard"
       }
     ]
   }

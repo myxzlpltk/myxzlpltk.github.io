@@ -9,6 +9,7 @@ function Navbar() {
   const navigation = [
     {name: "About Me", href: "about-me"},
     {name: "Portfolio", href: "portfolio"},
+    {name: "Articles", href: "articles"},
     {name: "Contacts", href: "contacts"},
   ];
 
