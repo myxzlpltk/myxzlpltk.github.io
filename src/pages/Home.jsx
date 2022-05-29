@@ -9,6 +9,7 @@ import {Helmet} from "react-helmet";
 import {Carousel} from "react-responsive-carousel";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {Link} from "react-router-dom";
 import {Fragment} from "react/cjs/react.production.min";
 import FadeImage from "../components/atoms/FadeImage";
 import PingNotification from "../components/atoms/PingNotification";
@@ -329,7 +330,9 @@ const ContactSection = () => {
           </div>
           <Text body2 className="text-white text-center mx-auto">
             <span>Made with</span>
-            <FontAwesomeIcon icon={faHeart} className="mx-2 text-red-500" fixedWidth />
+            <Link to="/portal">
+              <FontAwesomeIcon icon={faHeart} className="mx-2 text-red-500" fixedWidth />
+            </Link>
             <span>and</span>
             <FontAwesomeIcon icon={faReact} className="mx-2" fixedWidth />
           </Text>
