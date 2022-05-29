@@ -1,5 +1,14 @@
 [
   {
+    "imageUrl": "https://radarmalang.jawapos.com/wp-content/uploads/2022/02/Gedung-Rektorat-UM-Malang-edit.jpg",
+    "title": "A Synthetic Data for Predict Probability Senior Student Go To College",
+    "description": "I'm back dev. Today, I want to share you about a synthetic data that I was created a few day ago. I already upload it to kaggle which you can access here",
+    "tags": [
+      "#MachineLearning"
+    ],
+    "url": "https://dev.to/myxzlpltk/a-synthetic-data-for-predict-probability-senior-student-go-to-college-j2j"
+  },
+  {
     "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rt59tyvz73z0xtzod8gf.png",
     "title": "Face Mask Detection With ResNet50 and SVM + Decision Tree",
     "description": "Welcome, this post is a quick explanation on how I build mask detection using ResNet50 as feature extractor and then use Support Vector Machine (SVM) + Decision Tree with stacking ensemble method as classifier.",
