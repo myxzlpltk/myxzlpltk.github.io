@@ -64,7 +64,7 @@ const HeroSection = () => {
       name: "Cryptocurrency & NFT",
       src: "/icons/icons8-ethereum.svg",
       alt: "Ethereum",
-      href: "https://facebook.com/groups/kkpc.id",
+      href: "https://www.facebook.com/groups/447624138941895",
     },
     {
       name: "Metaverse",
