@@ -9,7 +9,7 @@
     "url": "https://dev.to/myxzlpltk/a-synthetic-data-for-predict-probability-senior-student-go-to-college-j2j"
   },
   {
-    "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rt59tyvz73z0xtzod8gf.png",
+    "imageUrl": "https://i.ibb.co/b7dY6qd/face-recognition.png",
     "title": "Face Mask Detection With ResNet50 and SVM + Decision Tree",
     "description": "Welcome, this post is a quick explanation on how I build mask detection using ResNet50 as feature extractor and then use Support Vector Machine (SVM) + Decision Tree with stacking ensemble method as classifier.",
     "tags": [
