@@ -1,16 +1,16 @@
-import {faGithub, faReact, faTwitter} from "@fortawesome/free-brands-svg-icons";
-import {faEnvelope, faFilePdf, faHandPaper, faHeart} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {Dialog, Transition} from "@headlessui/react";
+import { faGithub, faReact, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faFilePdf, faHandSpock, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Dialog, Transition } from "@headlessui/react";
 import "animate.css";
 
-import React, {Component, useState} from "react";
-import {Helmet} from "react-helmet";
-import {Carousel} from "react-responsive-carousel";
+import React, { Component, useState } from "react";
+import { Helmet } from "react-helmet";
+import { Carousel } from "react-responsive-carousel";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Link} from "react-router-dom";
-import {Fragment} from "react/cjs/react.production.min";
+import { Link } from "react-router-dom";
+import { Fragment } from "react/cjs/react.production.min";
 import FadeImage from "../components/atoms/FadeImage";
 import PingNotification from "../components/atoms/PingNotification";
 import Text from "../components/atoms/Text";
@@ -21,6 +21,7 @@ import InterestCard from "../components/molecules/InterestCard";
 import ProjectCard from "../components/molecules/ProjectCard";
 import Navbar from "../components/organisms/Navbar";
 import articles from "../data/articles";
+import interests from "../data/interests";
 import projects from "../data/projects";
 
 class Home extends Component {
@@ -41,39 +42,6 @@ class Home extends Component {
 }
 
 const HeroSection = () => {
-  const interests = [
-    {
-      name: "Android App Development",
-      src: "/icons/icons8-flutter.svg",
-      alt: "Flutter",
-      href: "https://flutter.dev",
-    },
-    {
-      name: "Web App Development",
-      src: "/icons/icons8-react.svg",
-      alt: "React",
-      href: "https://reactjs.org",
-    },
-    {
-      name: "Data Science",
-      src: "/icons/icons8-python.svg",
-      alt: "Python",
-      href: "https://kaggle.com",
-    },
-    {
-      name: "Cryptocurrency & NFT",
-      src: "/icons/icons8-ethereum.svg",
-      alt: "Ethereum",
-      href: "https://www.facebook.com/groups/447624138941895",
-    },
-    {
-      name: "Metaverse",
-      src: "/icons/icons8-meta.svg",
-      alt: "Metaverse",
-      href: "https://reddit.com/r/metaverse",
-    },
-  ];
-
   return (
     <main
       className="container py-12 md:py-16 lg:py-20 grid grid-cols-none md:grid-cols-3 items-center md:gap-10 lg:gap-20"
@@ -94,7 +62,7 @@ const HeroSection = () => {
       <div className="md:col-span-2">
         <Text headline4 className="text-indigo-600 mb-4">
           <FontAwesomeIcon
-            icon={faHandPaper}
+            icon={faHandSpock}
             className="text-orange-500 mr-4 animate__animated animate__wobble animate__delay-1s animate__repeat-3"
           />
           <span>Introduce me,</span>
@@ -108,7 +76,7 @@ const HeroSection = () => {
         </Text>
         <div className="mb-6">
           <Text headline5 className="mb-2">
-            My Interests
+            Find some common ground
           </Text>
           <div className="flex gap-0 sm:gap-4 md:gap-6">
             <div className="shrink">
@@ -142,7 +110,7 @@ const HeroSection = () => {
         <div className="sm:flex sm:justify-center lg:justify-start">
           <PingNotification>
             <ElevatedButton external
-                            to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
+              to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
               <span>Download CV</span>
             </ElevatedButton>
@@ -212,8 +180,8 @@ const PortfolioSection = () => {
 
             {/* This element is to trick the browser into centering the modal contents. */}
             <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">
-            &#8203;
-          </span>
+              &#8203;
+            </span>
             <Transition.Child
               as={Fragment}
               enter="ease-out duration-300"
@@ -241,12 +209,12 @@ const PortfolioSection = () => {
                   </div>
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-                  <ElevatedButton key="button-close" compact to="javascript:void"
-                                  className="inline-block mx-2 bg-red-600 hover:bg-red-700"
-                                  onClick={() => setOpen(false)}>Close</ElevatedButton>
+                  <ElevatedButton key="button-close" compact to={e => e.preventDefault()}
+                    className="inline-block mx-2 bg-red-600 hover:bg-red-700"
+                    onClick={() => setOpen(false)}>Close</ElevatedButton>
                   {project.buttons.map((button, i) => (
                     <ElevatedButton key={`button-project-${i}`} external compact to={button.link}
-                                    className="inline-block mx-2">
+                      className="inline-block mx-2">
                       {button.title}
                     </ElevatedButton>
                   ))}
@@ -269,10 +237,10 @@ const ArticlesSection = () => {
           {articles.map((article, i) => (
             <div key={`article-${i}`}>
               <ArticleCard imageUrl={article.imageUrl}
-                           title={article.title}
-                           description={article.description}
-                           tags={article.tags}
-                           url={article.url} />
+                title={article.title}
+                description={article.description}
+                tags={article.tags}
+                url={article.url} />
             </div>
           ))}
         </div>
@@ -283,9 +251,9 @@ const ArticlesSection = () => {
 
 const ContactSection = () => {
   let contacts = [
-    {icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter"},
-    {icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github"},
-    {icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email"},
+    { icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter" },
+    { icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github" },
+    { icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email" },
   ];
 
   return (
@@ -307,7 +275,7 @@ const ContactSection = () => {
             </div>
             <div className="flex-1">
               <div className="flex items-center justify-center">
-                <ElevatedButton to="javascript:void">
+                <ElevatedButton to={e => e.preventDefault()}>
                   <span>Let's do this!</span>
                 </ElevatedButton>
               </div>

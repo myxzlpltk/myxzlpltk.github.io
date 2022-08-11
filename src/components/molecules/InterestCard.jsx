@@ -4,7 +4,7 @@ import Text from "../atoms/Text";
 
 function InterestCard(props) {
   return (
-    <a href={props.href}>
+    <a href={props.href} target="_blank" rel="noreferrer">
       <div className="flex items-center gap-2 interest-box hover:bg-gray-200 py-1 px-2 rounded-md cursor-pointer">
         <img src={props.src} alt={props.alt} className="inline h-8 w-8" />
         <Text body2 className="justify-self-start text-gray-800">

@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Android App Development",
+      "src": "/icons/icons8-flutter.svg",
+      "alt": "Flutter",
+      "href": "https://discord.com/invite/N7Yshp4"
+    },
+    {
+      "name": "Web App Development",
+      "src": "/icons/icons8-react.svg",
+      "alt": "React",
+      "href": "https://discord.com/invite/reactiflux"
+    },
+    {
+      "name": "Data Science",
+      "src": "/icons/icons8-python.svg",
+      "alt": "Python",
+      "href": "https://kaggle.com/saddamazyazy"
+    },
+    {
+      "name": "Cryptocurrency & NFT",
+      "src": "/icons/icons8-ethereum.svg",
+      "alt": "Ethereum",
+      "href": "https://www.facebook.com/groups/447624138941895"
+    },
+    {
+      "name": "Metaverse",
+      "src": "/icons/icons8-meta.svg",
+      "alt": "Metaverse",
+      "href": "https://reddit.com/r/metaverse"
+    }
+  ]
