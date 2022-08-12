@@ -12,7 +12,7 @@ function ProjectCard(props) {
       />
       <div
         className="opacity-0 group-hover:opacity-100 duration-300 flex flex-col items-center gap-4 justify-center absolute inset-0 z-10 bg-gray-900 rounded-md">
-        <Text subtitle1 className="text-white">
+        <Text subtitle1 className="text-white text-center">
           {props.name}
         </Text>
         <ElevatedButton compact className="inline-block" onClick={props.onClick} to={e => e.preventDefault()}>

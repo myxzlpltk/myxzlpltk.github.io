@@ -138,7 +138,7 @@ const PortfolioSection = () => {
       </section>
       <section className="-mt-10 mb-8">
         <div
-          className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
+          className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
           {projects.map((item, i) => (
             <ProjectCard
               key={`projects-${i}`}
