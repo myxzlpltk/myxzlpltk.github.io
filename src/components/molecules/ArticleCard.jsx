@@ -14,7 +14,7 @@ function ArticleCard(props) {
   return (
     <a href={props.url} target="_blank" rel="noreferrer">
       <div className="max-w-sm h-auto mx-auto my-2 rounded overflow-hidden shadow-lg">
-        <img className="object-cover h-48 w-96 bg-white" src={props.imageUrl} alt="Volcano" />
+        <img className="object-cover aspect-video bg-white" src={props.imageUrl} alt="Volcano" />
         <div className="px-3 py-2 md:px-6 md:py-4">
           <Text body2 className="line-clamp-2 mb-2">{props.title}</Text>
           <Text caption className="line-clamp-4 leading-tight">{props.description}</Text>
