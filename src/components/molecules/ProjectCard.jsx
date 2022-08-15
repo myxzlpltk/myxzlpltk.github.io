@@ -16,7 +16,8 @@ function ProjectCard(props) {
         <Text subtitle1 className="text-white text-center">
           {props.name}
         </Text>
-        <ElevatedButton compact className="inline-block" onClick={props.onClick} to={e => e.preventDefault()}>
+        <ElevatedButton compact className="inline-block cursor-pointer" onClick={props.onClick}
+                        to={e => e.preventDefault()}>
           <span className="mr-1">More Info</span>
         </ElevatedButton>
       </div>
