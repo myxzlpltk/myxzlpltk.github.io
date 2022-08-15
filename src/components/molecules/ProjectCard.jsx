@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 import React from "react";
+import {classNames} from "../../utils";
 import Text from "../atoms/Text";
 import ElevatedButton from "./ElevatedButton";
 
 function ProjectCard(props) {
   return (
-    <div className="group rounded-md drop-shadow w-full aspect-video">
+    <div className={classNames("group rounded-md drop-shadow w-full aspect-video", props.className)}>
       <div
         className="rounded-md absolute inset-0 bg-cover bg-center z-0"
         style={{backgroundImage: `url('${props.src}')`}}
@@ -27,6 +28,7 @@ ProjectCard.propTypes = {
   name: PropTypes.string.isRequired,
   src: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
+  className: PropTypes.string,
 };
 
 export default ProjectCard;

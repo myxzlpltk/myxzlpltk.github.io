@@ -1,16 +1,16 @@
-import { faGithub, faReact, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFilePdf, faHandSpock, faHeart } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Dialog, Transition } from "@headlessui/react";
+import {faGithub, faReact, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope, faFilePdf, faHandSpock, faHeart} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {Dialog, Transition} from "@headlessui/react";
 import "animate.css";
 
-import React, { Component, useState } from "react";
-import { Helmet } from "react-helmet";
-import { Carousel } from "react-responsive-carousel";
+import React, {Component, useState} from "react";
+import {Helmet} from "react-helmet";
+import {Carousel} from "react-responsive-carousel";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Link } from "react-router-dom";
-import { Fragment } from "react/cjs/react.production.min";
+import {Link} from "react-router-dom";
+import {Fragment} from "react/cjs/react.production.min";
 import FadeImage from "../components/atoms/FadeImage";
 import PingNotification from "../components/atoms/PingNotification";
 import Text from "../components/atoms/Text";
@@ -106,7 +106,7 @@ const HeroSection = () => {
         <div className="sm:flex sm:justify-center lg:justify-start">
           <PingNotification>
             <ElevatedButton external
-              to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
+                            to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing">
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
               <span>Download CV</span>
             </ElevatedButton>
@@ -206,11 +206,11 @@ const PortfolioSection = () => {
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
                   <ElevatedButton key="button-close" compact to={e => e.preventDefault()}
-                    className="inline-block mx-2 bg-red-600 hover:bg-red-700"
-                    onClick={() => setOpen(false)}>Close</ElevatedButton>
+                                  className="inline-block mx-2 bg-red-600 hover:bg-red-700"
+                                  onClick={() => setOpen(false)}>Close</ElevatedButton>
                   {project.buttons.map((button, i) => (
                     <ElevatedButton key={`button-project-${i}`} external compact to={button.link}
-                      className="inline-block mx-2">
+                                    className="inline-block mx-2">
                       {button.title}
                     </ElevatedButton>
                   ))}
@@ -233,10 +233,10 @@ const ArticlesSection = () => {
           {articles.map((article, i) => (
             <div key={`article-${i}`}>
               <ArticleCard imageUrl={article.imageUrl}
-                title={article.title}
-                description={article.description}
-                tags={article.tags}
-                url={article.url} />
+                           title={article.title}
+                           description={article.description}
+                           tags={article.tags}
+                           url={article.url} />
             </div>
           ))}
         </div>
@@ -247,9 +247,9 @@ const ArticlesSection = () => {
 
 const ContactSection = () => {
   let contacts = [
-    { icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter" },
-    { icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github" },
-    { icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email" },
+    {icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter"},
+    {icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github"},
+    {icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email"},
   ];
 
   return (

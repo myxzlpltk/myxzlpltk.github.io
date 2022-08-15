@@ -1,8 +1,7 @@
+import {Dialog, Transition} from "@headlessui/react"
+import {Player} from "@lottiefiles/react-lottie-player";
 import PropTypes from "prop-types";
-import React from "react";
-import { Fragment, useRef, useState } from 'react'
-import { Dialog, Transition } from '@headlessui/react'
-import { Player } from "@lottiefiles/react-lottie-player";
+import React, {Fragment, useRef, useState} from "react";
 
 function SpotifyCard() {
   const [open, setOpen] = useState(false)
@@ -15,7 +14,7 @@ function SpotifyCard() {
           autoplay
           loop
           src="lottie/lf30_editor_tsww9nco.json"
-          style={{ width: '100%' }}
+          style={{width: "100%"}}
         />
       </div>
       <Transition.Root show={open} as={Fragment}>
@@ -43,9 +42,14 @@ function SpotifyCard() {
                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
-                <Dialog.Panel className="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-2xl sm:w-full">
+                <Dialog.Panel
+                  className="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:max-w-2xl sm:w-full">
                   <div className="aspect-video">
-                  <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/RPS-Cq4uMFs?autoplay=1&controls=0" title="Black Hole Baby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%"
+                            src="https://www.youtube-nocookie.com/embed/RPS-Cq4uMFs?autoplay=1&controls=0"
+                            title="Black Hole Baby" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
