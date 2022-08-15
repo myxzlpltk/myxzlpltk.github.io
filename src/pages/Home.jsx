@@ -138,18 +138,20 @@ const PortfolioSection = () => {
       </section>
       <section className="-mt-10 mb-8">
         <div
-          className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
+          className="container flex flex-wrap justify-center mb-8">
           {projects.map((item, i) => (
-            <ProjectCard
-              key={`projects-${i}`}
-              name={item.name}
-              src={item.src}
-              onClick={(event) => {
-                event.stopPropagation();
-                setOpen(true);
-                setProject(item);
-              }}
-            />
+            <div className="basis-1/2 md:basis-1/3 xl:basis-1/4 p-2">
+              <ProjectCard
+                key={`projects-${i}`}
+                name={item.name}
+                src={item.src}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  setOpen(true);
+                  setProject(item);
+                }}
+              />
+            </div>
           ))}
         </div>
         <div className="container flex justify-center">
