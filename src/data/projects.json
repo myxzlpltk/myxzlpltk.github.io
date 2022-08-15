@@ -1,5 +1,42 @@
 [
   {
+    "name": "Java Code",
+    "src": "/images/java-code/0.jpg",
+    "description": "An application where certain users can order menus in the form of food or drinks. In addition to being a medium for ordering, the application also functions as a catalog of the menu itself.",
+    "images": [
+      "/images/java-code/0.jpg",
+      "/images/java-code/1.jpg",
+      "/images/java-code/2.jpg",
+      "/images/java-code/3.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Figma",
+        "link": "https://www.figma.com/file/eiiNLEOgzgJBDPOz2qUXfN/Java-Code-App?node-id=0%3A1"
+      },
+      {
+        "title": "Github",
+        "link": "https://github.com/myxzlpltk/java_code_app"
+      }
+    ]
+  },
+  {
+    "name": "Humanis V2",
+    "src": "/images/humanis/0.jpg",
+    "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
+    "images": [
+      "/images/humanis/0.jpg",
+      "/images/humanis/1.jpg",
+      "/images/humanis/2.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Website",
+        "link": "https://humanis.id/"
+      }
+    ]
+  },
+  {
     "name": "Warung Semur (Serba Murah)",
     "src": "/images/warung-semur/0.jpg",
     "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
@@ -142,43 +179,6 @@
       {
         "title": "Github",
         "link": "https://github.com/orgs/esemkita/dashboard"
-      }
-    ]
-  },
-  {
-    "name": "Java Code",
-    "src": "/images/java-code/0.jpg",
-    "description": "An application where certain users can order menus in the form of food or drinks. In addition to being a medium for ordering, the application also functions as a catalog of the menu itself.",
-    "images": [
-      "/images/java-code/0.jpg",
-      "/images/java-code/1.jpg",
-      "/images/java-code/2.jpg",
-      "/images/java-code/3.jpg"
-    ],
-    "buttons": [
-      {
-        "title": "Figma",
-        "link": "https://www.figma.com/file/eiiNLEOgzgJBDPOz2qUXfN/Java-Code-App?node-id=0%3A1"
-      },
-      {
-        "title": "Github",
-        "link": "https://github.com/myxzlpltk/java_code_app"
-      }
-    ]
-  },
-  {
-    "name": "Humanis V2",
-    "src": "/images/humanis/0.jpg",
-    "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
-    "images": [
-      "/images/humanis/0.jpg",
-      "/images/humanis/1.jpg",
-      "/images/humanis/2.jpg"
-    ],
-    "buttons": [
-      {
-        "title": "Website",
-        "link": "https://humanis.id/"
       }
     ]
   }
