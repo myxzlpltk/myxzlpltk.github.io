@@ -165,5 +165,21 @@
         "link": "https://github.com/myxzlpltk/java_code_app"
       }
     ]
+  },
+  {
+    "name": "Humanis V2",
+    "src": "/images/humanis/0.jpg",
+    "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
+    "images": [
+      "/images/humanis/0.jpg",
+      "/images/humanis/1.jpg",
+      "/images/humanis/2.jpg"
+    ],
+    "buttons": [
+      {
+        "title": "Website",
+        "link": "https://humanis.id/"
+      }
+    ]
   }
 ]
