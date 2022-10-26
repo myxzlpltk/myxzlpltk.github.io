@@ -3,7 +3,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import PropTypes from "prop-types";
 import React, { Fragment, useRef, useState } from "react";
 
-function SpotifyCard() {
+function YoutubeCard() {
   const [open, setOpen] = useState(false);
   const cancelButtonRef = useRef(null);
 
@@ -73,8 +73,8 @@ function SpotifyCard() {
   );
 }
 
-SpotifyCard.propTypes = {
+YoutubeCard.propTypes = {
   url: PropTypes.string.isRequired,
 };
 
-export default SpotifyCard;
+export default YoutubeCard;

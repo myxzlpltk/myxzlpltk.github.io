@@ -29,7 +29,7 @@ import ArticleCard from "../components/molecules/ArticleCard";
 import ElevatedButton from "../components/molecules/ElevatedButton";
 import InterestCard from "../components/molecules/InterestCard";
 import ProjectCard from "../components/molecules/ProjectCard";
-import SpotifyCard from "../components/molecules/SpotifyCard";
+import YoutubeCard from "../components/molecules/YoutubeCard";
 import Navbar from "../components/organisms/Navbar";
 import articles from "../data/articles";
 import interests from "../data/interests";
@@ -65,7 +65,7 @@ const HeroSection = () => {
           alt="Avatar Meta"
           className="animate__animated animate__fadeInUp mb-4"
         />
-        <SpotifyCard url="" />
+        <YoutubeCard url="" />
       </div>
       <div className="md:col-span-2">
         <Text headline4 className="text-indigo-600 mb-4">
