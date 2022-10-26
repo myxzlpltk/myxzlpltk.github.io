@@ -1,41 +1,71 @@
 import PropTypes from "prop-types";
 import React from "react";
-import {classNames} from "../../utils";
+import { classNames } from "../../utils";
 
 function Text(props) {
   if (props.headline1) {
     return (
-      <h1 className={classNames(props.className, "text-7xl font-serif font-extrabold tracking-tighter")}>
+      <h1
+        className={classNames(
+          props.className,
+          "text-7xl font-serif font-extrabold tracking-tighte,r"
+        )}
+      >
         {props.children}
       </h1>
     );
   } else if (props.headline2) {
     return (
-      <h2 className={classNames(props.className, "text-5xl font-serif font-extrabold tracking-tight")}>
+      <h2
+        className={classNames(
+          props.className,
+          "text-5xl font-serif font-extrabold tracking-tight"
+        )}
+      >
         {props.children}
       </h2>
     );
   } else if (props.headline3) {
     return (
-      <h3 className={classNames(props.className, "text-4xl font-serif font-bold tracking-normal")}>
+      <h3
+        className={classNames(
+          props.className,
+          "text-4xl font-serif font-bold tracking-normal"
+        )}
+      >
         {props.children}
       </h3>
     );
   } else if (props.headline4) {
     return (
-      <h4 className={classNames(props.className, "text-3xl font-serif font-bold tracking-wide")}>
+      <h4
+        className={classNames(
+          props.className,
+          "text-3xl font-serif font-bold tracking-wide"
+        )}
+      >
         {props.children}
       </h4>
     );
   } else if (props.headline5) {
     return (
-      <h5 className={classNames(props.className, "text-2xl font-serif font-bold tracking-normal")}>
+      <h5
+        className={classNames(
+          props.className,
+          "text-2xl font-serif font-bold tracking-normal"
+        )}
+      >
         {props.children}
       </h5>
     );
   } else if (props.headline6) {
     return (
-      <h6 className={classNames(props.className, "text-lg font-serif font-bold tracking-wide")}>
+      <h6
+        className={classNames(
+          props.className,
+          "text-lg font-serif font-bold tracking-wide"
+        )}
+      >
         {props.children}
       </h6>
     );
@@ -44,7 +74,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-base md:text-base lg:text-lg font-serif font-normal tracking-normal",
+          "text-base md:text-base lg:text-lg font-serif font-normal tracking-normal"
         )}
       >
         {props.children}
@@ -55,7 +85,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-sm md:text-base lg:text-lg font-serif font-semibold tracking-tighter",
+          "text-sm md:text-base lg:text-lg font-serif font-semibold tracking-tighter"
         )}
       >
         {props.children}
@@ -66,7 +96,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs md:text-sm lg:text-base font-serif font-normal tracking-normal",
+          "text-xs md:text-sm lg:text-base font-serif font-normal tracking-normal"
         )}
       >
         {props.children}
@@ -77,7 +107,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs md:text-sm lg:text-base font-serif font-semibold tracking-tighter",
+          "text-xs md:text-sm lg:text-base font-serif font-semibold tracking-tighter"
         )}
       >
         {props.children}
@@ -88,7 +118,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-sm md:text-base font-serif font-medium tracking-tighter",
+          "text-sm md:text-base font-serif font-medium tracking-tighter"
         )}
       >
         {props.children}
@@ -99,7 +129,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs md:text-sm font-serif font-normal italic tracking-normal",
+          "text-xs md:text-sm font-serif font-normal italic tracking-normal"
         )}
       >
         {props.children}
@@ -110,7 +140,7 @@ function Text(props) {
       <p
         className={classNames(
           props.className,
-          "text-xs md:text-sm font-serif font-semibold tracking-normal",
+          "text-xs md:text-sm font-serif font-semibold tracking-normal"
         )}
       >
         {props.children}

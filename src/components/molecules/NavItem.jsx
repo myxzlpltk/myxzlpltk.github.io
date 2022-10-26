@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
-import {Link} from "react-scroll";
-import {classNames} from "../../utils";
+import { Link } from "react-scroll";
+import { classNames } from "../../utils";
 import Text from "../atoms/Text";
 
 function NavItem(props) {
@@ -13,11 +13,16 @@ function NavItem(props) {
       className={classNames(
         "hover:bg-indigo-500 hover:text-white",
         props.block ? "block w-full" : "inline-block",
-        "px-3 py-2 rounded-md cursor-pointer",
+        "px-3 py-2 rounded-md cursor-pointer"
       )}
-      spy={true} smooth={true} offset={-66} duration={500}
+      spy={true}
+      smooth={true}
+      offset={-66}
+      duration={500}
     >
-      <Text className="font-sourceCodePro text-sm font-medium">{props.name}</Text>
+      <Text className="font-sourceCodePro text-sm font-medium">
+        {props.name}
+      </Text>
     </Link>
   );
 }

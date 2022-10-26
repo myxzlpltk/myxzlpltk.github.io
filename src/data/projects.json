@@ -2,12 +2,19 @@
   {
     "name": "Java Code",
     "src": "/projects/java-code/0.jpg",
+    "srcWebp": "/projects/java-code/0.webp",
     "description": "An application where certain users can order menus in the form of food or drinks. In addition to being a medium for ordering, the application also functions as a catalog of the menu itself.",
     "images": [
       "/projects/java-code/0.jpg",
       "/projects/java-code/1.jpg",
       "/projects/java-code/2.jpg",
       "/projects/java-code/3.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/java-code/0.webp",
+      "/projects/java-code/1.webp",
+      "/projects/java-code/2.webp",
+      "/projects/java-code/3.webp"
     ],
     "buttons": [
       {
@@ -23,11 +30,17 @@
   {
     "name": "Humanis V2",
     "src": "/projects/humanis/0.jpg",
+    "srcWebp": "/projects/humanis/0.webp",
     "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
     "images": [
       "/projects/humanis/0.jpg",
       "/projects/humanis/1.jpg",
       "/projects/humanis/2.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/humanis/0.webp",
+      "/projects/humanis/1.webp",
+      "/projects/humanis/2.webp"
     ],
     "buttons": [
       {
@@ -39,12 +52,19 @@
   {
     "name": "Warung Semur (Serba Murah)",
     "src": "/projects/warung-semur/0.jpg",
+    "srcWebp": "/projects/warung-semur/0.webp",
     "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
     "images": [
       "/projects/warung-semur/0.jpg",
       "/projects/warung-semur/1.jpg",
       "/projects/warung-semur/2.jpg",
       "/projects/warung-semur/3.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/warung-semur/0.webp",
+      "/projects/warung-semur/1.webp",
+      "/projects/warung-semur/2.webp",
+      "/projects/warung-semur/3.webp"
     ],
     "buttons": [
       {
@@ -60,12 +80,19 @@
   {
     "name": "e-Library",
     "src": "/projects/e-library/0.jpg",
+    "srcWebp": "/projects/e-library/0.webp",
     "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library. This system is designed to meet the needs of e-book publishing.",
     "images": [
       "/projects/e-library/0.jpg",
       "/projects/e-library/1.jpg",
       "/projects/e-library/2.jpg",
       "/projects/e-library/3.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/e-library/0.webp",
+      "/projects/e-library/1.webp",
+      "/projects/e-library/2.webp",
+      "/projects/e-library/3.webp"
     ],
     "buttons": [
       {
@@ -81,6 +108,7 @@
   {
     "name": "SIOTANG",
     "src": "/projects/siotang/0.jpg",
+    "srcWebp": "/projects/siotang/0.webp",
     "description": "This project aims to make ask-for-hand-signature in formalities & bureaucracy easier during pandemics. Basically this is an information system for signing the approval sheet for industrial work practice proposals. Built for Electrical Engineering UM.",
     "images": [
       "/projects/siotang/0.jpg",
@@ -89,6 +117,14 @@
       "/projects/siotang/3.jpg",
       "/projects/siotang/4.jpg",
       "/projects/siotang/5.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/siotang/0.webp",
+      "/projects/siotang/1.webp",
+      "/projects/siotang/2.webp",
+      "/projects/siotang/3.webp",
+      "/projects/siotang/4.webp",
+      "/projects/siotang/5.webp"
     ],
     "buttons": [
       {
@@ -100,10 +136,15 @@
   {
     "name": "Fruit Parcel AI (Knapsack)",
     "src": "/projects/knapsack/0.jpg",
+    "srcWebp": "/projects/knapsack/0.webp",
     "description": "This project aims to solve the problem of finding the best combination of fruits to maximize the profit. The project is built using Dart and Flutter. The project is based on BFS algorithm for knapsack problem.",
     "images": [
       "/projects/knapsack/0.jpg",
       "/projects/knapsack/1.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/knapsack/0.webp",
+      "/projects/knapsack/1.webp"
     ],
     "buttons": [
       {
@@ -119,10 +160,15 @@
   {
     "name": "Mulyotani",
     "src": "/projects/mulyotani/0.jpg",
+    "srcWebp": "/projects/mulyotani/0.webp",
     "description": "A simple landing page to promote automatic bird repellent device called \"Mulyotani\". So that rice plants can thrive and be free from pests.",
     "images": [
       "/projects/mulyotani/0.jpg",
       "/projects/mulyotani/1.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/mulyotani/0.webp",
+      "/projects/mulyotani/1.webp"
     ],
     "buttons": [
       {
@@ -138,9 +184,13 @@
   {
     "name": "Burger",
     "src": "/projects/burger/0.jpg",
+    "srcWebp": "/projects/burger/0.webp",
     "description": "A simple burger web application that allows users to order burgers using drag and drop mechanism. The project is built using Javascript Drag Events.",
     "images": [
       "/projects/burger/0.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/burger/0.webp"
     ],
     "buttons": [
       {
@@ -156,10 +206,15 @@
   {
     "name": "E-Brent",
     "src": "/projects/e-brent/0.jpg",
+    "srcWebp": "/projects/e-brent/0.webp",
     "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
     "images": [
       "/projects/e-brent/0.jpg",
       "/projects/e-brent/1.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/e-brent/0.webp",
+      "/projects/e-brent/1.webp"
     ],
     "buttons": [
       {
@@ -171,9 +226,13 @@
   {
     "name": "Smart School",
     "src": "/projects/smart-school/0.jpg",
+    "srcWebp": "/projects/smart-school/0.webp",
     "description": "A private projects or ecosystem about multi-apps that connected via single login SAML. This projects aims to digitalize school system.",
     "images": [
       "/projects/smart-school/0.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/smart-school/0.webp"
     ],
     "buttons": [
       {

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import {classNames} from "../../utils";
+import { classNames } from "../../utils";
 import Text from "../atoms/Text";
 
 function ElevatedButton(props) {
@@ -12,9 +12,10 @@ function ElevatedButton(props) {
       className={classNames(
         "rounded-md inline-flex items-center justify-center border border-transparent bg-indigo-600 hover:bg-indigo-700 drop-shadow-xl",
         props.className,
-        props.compact ? "px-4 py-1" : "px-8 py-3 md:py-4 md:px-10",
+        props.compact ? "px-4 py-1" : "px-8 py-3 md:py-4 md:px-1,0"
       )}
-      onClick={props.onClick}>
+      onClick={props.onClick}
+    >
       <Text button className="text-white">
         {props.children}
       </Text>
