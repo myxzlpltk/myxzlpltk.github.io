@@ -122,8 +122,8 @@ const PortfolioSection = () => {
   let [project, setProject] = useState(projects[0])
 
   return (
-    <Fragment>
-      <section className="bg-indigo-700" id="portfolio">
+    <section id="portfolio">
+      <div className="bg-indigo-700">
         <div className="container py-12 md:py-16 lg:py-20 items-center">
           <Text headline4 className="text-white text-center mb-4">
             My Portfolio
@@ -135,8 +135,8 @@ const PortfolioSection = () => {
             beyond source code because it's maintainable. However, here are some my achievement.
           </Text>
         </div>
-      </section>
-      <section className="-mt-10 mb-8">
+      </div>
+      <div className="-mt-10 mb-8">
         <div
           className="container flex flex-wrap justify-center mb-8">
           {projects.map((item, i) => (
@@ -160,7 +160,7 @@ const PortfolioSection = () => {
             <span>See more at Github</span>
           </ElevatedButton>
         </div>
-      </section>
+      </div>
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="fixed z-10 inset-0 overflow-y-auto" onClose={setOpen}>
           <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -222,7 +222,7 @@ const PortfolioSection = () => {
           </div>
         </Dialog>
       </Transition.Root>
-    </Fragment>
+    </section>
   );
 };
 
