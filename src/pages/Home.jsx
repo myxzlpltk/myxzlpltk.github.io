@@ -49,7 +49,8 @@ const HeroSection = () => {
       id="about-me">
       <div className="hidden md:block">
         <FadeImage
-          src="/images/avatar.png"
+          src="/images/avatar.jpg"
+          webp="/images/avatar.webp"
           alt="Avatar Meta"
           className="animate__animated animate__fadeInUp mb-4"
         />
@@ -234,11 +235,7 @@ const ArticlesSection = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {articles.map((article, i) => (
             <div key={`article-${i}`}>
-              <ArticleCard imageUrl={article.imageUrl}
-                           title={article.title}
-                           description={article.description}
-                           tags={article.tags}
-                           url={article.url} />
+              <ArticleCard {...article} />
             </div>
           ))}
         </div>

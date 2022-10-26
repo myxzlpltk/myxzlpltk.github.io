@@ -1,13 +1,13 @@
 [
   {
     "name": "Java Code",
-    "src": "/images/java-code/0.jpg",
+    "src": "/projects/java-code/0.jpg",
     "description": "An application where certain users can order menus in the form of food or drinks. In addition to being a medium for ordering, the application also functions as a catalog of the menu itself.",
     "images": [
-      "/images/java-code/0.jpg",
-      "/images/java-code/1.jpg",
-      "/images/java-code/2.jpg",
-      "/images/java-code/3.jpg"
+      "/projects/java-code/0.jpg",
+      "/projects/java-code/1.jpg",
+      "/projects/java-code/2.jpg",
+      "/projects/java-code/3.jpg"
     ],
     "buttons": [
       {
@@ -22,12 +22,12 @@
   },
   {
     "name": "Humanis V2",
-    "src": "/images/humanis/0.jpg",
+    "src": "/projects/humanis/0.jpg",
     "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
     "images": [
-      "/images/humanis/0.jpg",
-      "/images/humanis/1.jpg",
-      "/images/humanis/2.jpg"
+      "/projects/humanis/0.jpg",
+      "/projects/humanis/1.jpg",
+      "/projects/humanis/2.jpg"
     ],
     "buttons": [
       {
@@ -38,13 +38,13 @@
   },
   {
     "name": "Warung Semur (Serba Murah)",
-    "src": "/images/warung-semur/0.jpg",
+    "src": "/projects/warung-semur/0.jpg",
     "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
     "images": [
-      "/images/warung-semur/0.jpg",
-      "/images/warung-semur/1.jpg",
-      "/images/warung-semur/2.jpg",
-      "/images/warung-semur/3.jpg"
+      "/projects/warung-semur/0.jpg",
+      "/projects/warung-semur/1.jpg",
+      "/projects/warung-semur/2.jpg",
+      "/projects/warung-semur/3.jpg"
     ],
     "buttons": [
       {
@@ -59,13 +59,13 @@
   },
   {
     "name": "e-Library",
-    "src": "/images/e-library/0.jpg",
+    "src": "/projects/e-library/0.jpg",
     "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library. This system is designed to meet the needs of e-book publishing.",
     "images": [
-      "/images/e-library/0.jpg",
-      "/images/e-library/1.jpg",
-      "/images/e-library/2.jpg",
-      "/images/e-library/3.jpg"
+      "/projects/e-library/0.jpg",
+      "/projects/e-library/1.jpg",
+      "/projects/e-library/2.jpg",
+      "/projects/e-library/3.jpg"
     ],
     "buttons": [
       {
@@ -80,15 +80,15 @@
   },
   {
     "name": "SIOTANG",
-    "src": "/images/siotang/0.jpg",
+    "src": "/projects/siotang/0.jpg",
     "description": "This project aims to make ask-for-hand-signature in formalities & bureaucracy easier during pandemics. Basically this is an information system for signing the approval sheet for industrial work practice proposals. Built for Electrical Engineering UM.",
     "images": [
-      "/images/siotang/0.jpg",
-      "/images/siotang/1.jpg",
-      "/images/siotang/2.jpg",
-      "/images/siotang/3.jpg",
-      "/images/siotang/4.jpg",
-      "/images/siotang/5.jpg"
+      "/projects/siotang/0.jpg",
+      "/projects/siotang/1.jpg",
+      "/projects/siotang/2.jpg",
+      "/projects/siotang/3.jpg",
+      "/projects/siotang/4.jpg",
+      "/projects/siotang/5.jpg"
     ],
     "buttons": [
       {
@@ -99,11 +99,11 @@
   },
   {
     "name": "Fruit Parcel AI (Knapsack)",
-    "src": "/images/knapsack/0.jpg",
+    "src": "/projects/knapsack/0.jpg",
     "description": "This project aims to solve the problem of finding the best combination of fruits to maximize the profit. The project is built using Dart and Flutter. The project is based on BFS algorithm for knapsack problem.",
     "images": [
-      "/images/knapsack/0.jpg",
-      "/images/knapsack/1.jpg"
+      "/projects/knapsack/0.jpg",
+      "/projects/knapsack/1.jpg"
     ],
     "buttons": [
       {
@@ -118,11 +118,11 @@
   },
   {
     "name": "Mulyotani",
-    "src": "/images/mulyotani/0.jpg",
+    "src": "/projects/mulyotani/0.jpg",
     "description": "A simple landing page to promote automatic bird repellent device called \"Mulyotani\". So that rice plants can thrive and be free from pests.",
     "images": [
-      "/images/mulyotani/0.jpg",
-      "/images/mulyotani/1.jpg"
+      "/projects/mulyotani/0.jpg",
+      "/projects/mulyotani/1.jpg"
     ],
     "buttons": [
       {
@@ -137,10 +137,10 @@
   },
   {
     "name": "Burger",
-    "src": "/images/burger/0.jpg",
+    "src": "/projects/burger/0.jpg",
     "description": "A simple burger web application that allows users to order burgers using drag and drop mechanism. The project is built using Javascript Drag Events.",
     "images": [
-      "/images/burger/0.jpg"
+      "/projects/burger/0.jpg"
     ],
     "buttons": [
       {
@@ -155,11 +155,11 @@
   },
   {
     "name": "E-Brent",
-    "src": "/images/e-brent/0.jpg",
+    "src": "/projects/e-brent/0.jpg",
     "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
     "images": [
-      "/images/e-brent/0.jpg",
-      "/images/e-brent/1.jpg"
+      "/projects/e-brent/0.jpg",
+      "/projects/e-brent/1.jpg"
     ],
     "buttons": [
       {
@@ -170,10 +170,10 @@
   },
   {
     "name": "Smart School",
-    "src": "/images/smart-school/0.jpg",
+    "src": "/projects/smart-school/0.jpg",
     "description": "A private projects or ecosystem about multi-apps that connected via single login SAML. This projects aims to digitalize school system.",
     "images": [
-      "/images/smart-school/0.jpg"
+      "/projects/smart-school/0.jpg"
     ],
     "buttons": [
       {
