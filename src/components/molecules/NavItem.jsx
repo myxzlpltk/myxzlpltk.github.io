@@ -7,7 +7,6 @@ import Text from "../atoms/Text";
 function NavItem(props) {
   return (
     <Link
-      key={props.name}
       to={props.href}
       activeClass="bg-indigo-900 text-white"
       className={classNames(

@@ -32,7 +32,6 @@ function ProjectCard(props) {
           compact
           className="inline-block cursor-pointer"
           onClick={props.onClick}
-          to={(e) => e.preventDefault()}
         >
           <span className="mr-1">More Info</span>
         </ElevatedButton>

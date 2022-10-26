@@ -13,8 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dialog, Transition } from "@headlessui/react";
 import "animate.css";
 
-import React, { Component, useState } from "react";
-import { Helmet } from "react-helmet";
+import React, { useState } from "react";
 import Image from "react-image-webp";
 import { Carousel } from "react-responsive-carousel";
 
@@ -35,22 +34,15 @@ import articles from "../data/articles";
 import interests from "../data/interests";
 import projects from "../data/projects";
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Helmet>
-          <title>Saddam Sinatrya Jalu Mukti</title>
-        </Helmet>
-        <Navbar />
-        <HeroSection />
-        <PortfolioSection />
-        <ArticlesSection />
-        <ContactSection />
-      </div>
-    );
-  }
-}
+const Home = () => (
+  <div>
+    <Navbar />
+    <HeroSection />
+    <PortfolioSection />
+    <ArticlesSection />
+    <ContactSection />
+  </div>
+);
 
 const HeroSection = () => {
   return (
@@ -152,9 +144,11 @@ const PortfolioSection = () => {
       <div className="-mt-10 mb-8">
         <div className="container flex flex-wrap justify-center mb-8">
           {projects.map((item, i) => (
-            <div className="basis-1/2 md:basis-1/3 xl:basis-1/4 p-2">
+            <div
+              key={`projects-${i}`}
+              className="basis-1/2 md:basis-1/3 xl:basis-1/4 p-2"
+            >
               <ProjectCard
-                key={`projects-${i}`}
                 name={item.name}
                 src={item.src}
                 srcWebp={item.srcWebp}
@@ -238,7 +232,6 @@ const PortfolioSection = () => {
                   <ElevatedButton
                     key="button-close"
                     compact
-                    to={(e) => e.preventDefault()}
                     className="inline-block mx-2 bg-red-600 hover:bg-red-700"
                     onClick={() => setOpen(false)}
                   >
@@ -310,7 +303,7 @@ const ContactSection = () => {
             </div>
             <div className="flex-1">
               <div className="flex items-center justify-center">
-                <ElevatedButton to={(e) => e.preventDefault()}>
+                <ElevatedButton to="mailto:myxzlpltk@gmail.com">
                   <span>Let's do this!</span>
                 </ElevatedButton>
               </div>
