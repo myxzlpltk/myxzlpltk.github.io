@@ -3,6 +3,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Portal from "./pages/Portal";
+import Swapper from "./pages/Swapper";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portal" element={<Portal />} />
+          <Route path="/swapper" element={<Swapper />} />
         </Routes>
       </div>
     </HashRouter>
