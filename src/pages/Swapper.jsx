@@ -32,18 +32,20 @@ const Swapper = () => {
   }, [index, text]);
 
   return (
-    <div className="max-w-xl mx-auto py-3">
-      <div className="flex justify-left items-center gap-2 md:gap-5 mb-2">
-        <h2 className="text-xl font-semibold">Pilih Font :</h2>
-        {fonts.map(({ name }, i) => (
-          <FontRadioButton
-            key={`font-${i}`}
-            index={i}
-            selected={index === i}
-            name={name}
-            setIndex={setIndex}
-          />
-        ))}
+    <div className="container max-w-xl mx-auto py-3">
+      <div className="flex flex-col md:flex-row items-center gap-2 md:gap-5 mb-2">
+        <h2 className="text-xl font-semibold text-left">Pilih Font :</h2>
+        <div className="flex items-center gap-2">
+          {fonts.map(({ name }, i) => (
+            <FontRadioButton
+              key={`font-${i}`}
+              index={i}
+              selected={index === i}
+              name={name}
+              setIndex={setIndex}
+            />
+          ))}
+        </div>
       </div>
       <p className="mb-2">
         Menukar huruf {fonts[index].char1} dengan {fonts[index].char2} dan
