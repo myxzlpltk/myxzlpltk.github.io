@@ -7,6 +7,7 @@ const fonts = [
   { name: "Font 2", char1: "i", char2: "e" },
   { name: "Font 3", char1: "u", char2: "f" },
   { name: "Font 4", char1: "e", char2: "g" },
+  { name: "Font EX", char1: "e", char2: "x" },
 ];
 
 const Swapper = () => {
