@@ -50,6 +50,28 @@ const Portal = () => {
               <Text body2>Promo Card ID: 22</Text>
             </div>
           </a>
+
+          <a
+            href="https://www.dicoding.com/profile"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="bg-white shadow-lg rounded-lg p-3 hover:bg-blue-50 cursor-pointer">
+              <Text body1>Dicoding</Text>
+              <Text body2>No Data</Text>
+            </div>
+          </a>
+
+          <a
+            href="https://www.dicoding.com/profile/saddam"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="bg-white shadow-lg rounded-lg p-3 hover:bg-blue-50 cursor-pointer">
+              <Text body1>Dicoding</Text>
+              <Text body2>Nama: Saddam</Text>
+            </div>
+          </a>
         </div>
       </div>
     </div>
