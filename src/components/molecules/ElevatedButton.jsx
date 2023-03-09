@@ -4,7 +4,7 @@ import { classNames } from "../../utils";
 import Text from "../atoms/Text";
 
 function ElevatedButton(props) {
-  if (props.href) {
+  if (props.to) {
     return (
       <a
         href={props.to ? props.to : "#"}
@@ -43,7 +43,7 @@ ElevatedButton.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
   compact: PropTypes.bool,
-  href: PropTypes.string,
+  to: PropTypes.string,
   external: PropTypes.bool,
   onClick: PropTypes.func,
 };
