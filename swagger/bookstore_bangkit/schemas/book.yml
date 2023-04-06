@@ -1,0 +1,52 @@
+type: object
+required:
+  - id
+  - title
+  - description
+  - author
+  - pages
+  - isbn
+  - price
+  - image_url
+  - stock
+  - published_at
+properties:
+  id:
+    type: string
+    example: d290f1ee-6c54-4b01-90e6-d701748f0851
+    readOnly: true
+  title:
+    type: string
+    example: The Definitive Guide to MongoDB, 3rd Edition
+  description:
+    type: string
+    example: |
+      With Learning JavaScript Design Patterns, you'll learn how to write 
+      beautiful, structured, and maintainable JavaScript by applying classical 
+      and modern design patterns to the language. If you want to keep your 
+      code efficient, more manageable, and up-to-date with the latest best 
+      practices, this book is for you.
+  author:
+    type: string
+    example: Megawati Soekarnoputri
+  pages:
+    type: number
+    minimum: 1
+    example: 256
+  isbn:
+    type: string
+    example: 9781593279509
+  price:
+    type: number
+    minimum: 0
+    example: 128000
+  image_url:
+    type: string
+    example: https://www.gravatar.com/avatar/94d093eda664addd6e450d7e9881bcad
+  stock:
+    type: number
+    minimum: 0
+    example: 24
+  published_at:
+    type: string
+    format: date-time
