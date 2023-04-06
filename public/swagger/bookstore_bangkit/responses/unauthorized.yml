@@ -1,0 +1,12 @@
+description: Unauthorized access
+content:
+  application/json:
+    schema:
+      type: object
+      properties:
+        status:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: Unauthorized access
