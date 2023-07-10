@@ -1,5 +1,45 @@
 [
   {
+    "name": "Recoffeery",
+    "src": "/projects/recoffeery/0.jpg",
+    "srcWebp": "/projects/recoffeery/0.webp",
+    "description": "An application that help coffee farmers detecting coffee disease by capturing its leaf. This application is using machine learning and cloud computing to support the tasks.",
+    "images": [
+      "/projects/recoffeery/0.jpg",
+      "/projects/recoffeery/1.jpg",
+      "/projects/recoffeery/2.jpg",
+      "/projects/recoffeery/3.jpg",
+      "/projects/recoffeery/4.jpg",
+      "/projects/recoffeery/5.jpg",
+      "/projects/recoffeery/6.jpg",
+      "/projects/recoffeery/7.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/recoffeery/0.webp",
+      "/projects/recoffeery/1.webp",
+      "/projects/recoffeery/2.webp",
+      "/projects/recoffeery/3.webp",
+      "/projects/recoffeery/4.webp",
+      "/projects/recoffeery/5.webp",
+      "/projects/recoffeery/6.webp",
+      "/projects/recoffeery/7.webp"
+    ],
+    "buttons": [
+      {
+        "title": "Whimsical",
+        "link": "https://whimsical.com/low-fidelity-JZ5fhpYkugHPZECVsefrGA"
+      },
+      {
+        "title": "Figma",
+        "link": "https://www.figma.com/file/PF31NamfXHTxOutM71BDxY/Bangkit-Capstone"
+      },
+      {
+        "title": "Github",
+        "link": "https://github.com/Bangkit-C23-PS414/android-app-compose"
+      }
+    ]
+  },
+  {
     "name": "Java Code",
     "src": "/projects/java-code/0.jpg",
     "srcWebp": "/projects/java-code/0.webp",
@@ -46,6 +86,26 @@
       {
         "title": "Website",
         "link": "https://humanis.id/"
+      }
+    ]
+  },
+  {
+    "name": "E-Brent",
+    "src": "/projects/e-brent/0.jpg",
+    "srcWebp": "/projects/e-brent/0.webp",
+    "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
+    "images": [
+      "/projects/e-brent/0.jpg",
+      "/projects/e-brent/1.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/e-brent/0.webp",
+      "/projects/e-brent/1.webp"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "https://github.com/myxzlpltk/rental-sepeda-flutter"
       }
     ]
   },
@@ -200,26 +260,6 @@
       {
         "title": "Demo",
         "link": "https://myxzlpltk.github.io/burger"
-      }
-    ]
-  },
-  {
-    "name": "E-Brent",
-    "src": "/projects/e-brent/0.jpg",
-    "srcWebp": "/projects/e-brent/0.webp",
-    "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
-    "images": [
-      "/projects/e-brent/0.jpg",
-      "/projects/e-brent/1.jpg"
-    ],
-    "imagesWebp": [
-      "/projects/e-brent/0.webp",
-      "/projects/e-brent/1.webp"
-    ],
-    "buttons": [
-      {
-        "title": "Github",
-        "link": "https://github.com/myxzlpltk/rental-sepeda-flutter"
       }
     ]
   },
