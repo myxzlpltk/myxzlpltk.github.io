@@ -102,7 +102,7 @@ const PortfolioSection = () => {
                     >
                       {project.name}
                     </Dialog.Title>
-                    <Carousel className="mb-2">
+                    <Carousel className="mb-2" showIndicators={false} showThumbs={false} swipeable={true} emulateTouch={true}>
                       {project.images.map((image, i) => (
                         <div key={`carousel-${i}`}>
                           {isWebpSupported() ? (
