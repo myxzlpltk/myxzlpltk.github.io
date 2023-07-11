@@ -90,6 +90,28 @@
     ]
   },
   {
+    "name": "Flutix",
+    "src": "/projects/flutix/0.jpg",
+    "srcWebp": "/projects/flutix/0.webp",
+    "description": "Flutter ticketing app for movie theater. Built with firebase services enabling serverless application.",
+    "images": [
+      "/projects/flutix/0.jpg",
+      "/projects/flutix/1.jpg",
+      "/projects/flutix/2.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/flutix/0.webp",
+      "/projects/flutix/1.webp",
+      "/projects/flutix/2.webp"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "https://github.com/myxzlpltk/bwa-flutix"
+      }
+    ]
+  },
+  {
     "name": "E-Brent",
     "src": "/projects/e-brent/0.jpg",
     "srcWebp": "/projects/e-brent/0.webp",
