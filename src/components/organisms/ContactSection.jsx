@@ -15,7 +15,7 @@ const ContactSection = () => {
   let contacts = [
     { icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter" },
     { icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github" },
-    { icon: faEnvelope, href: "mailto:saddam.binary@gmail.com", name: "Email" },
+    { icon: faEnvelope, href: "mailto:myxzlpltk@gmail.com", name: "Email" },
   ];
 
   return (
