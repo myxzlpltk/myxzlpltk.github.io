@@ -132,6 +132,36 @@
     ]
   },
   {
+    "name": "APGREAT",
+    "src": "/projects/apgreat/0.jpg",
+    "srcWebp": "/projects/apgreat/0.webp",
+    "description": "Apgreat provides a variety of meal plans and recipes that are designed to help moms prevent stunting. The app also includes educational resources about nutrition and healthy eating.",
+    "images": [
+      "/projects/apgreat/0.jpg",
+      "/projects/apgreat/1.jpg",
+      "/projects/apgreat/2.jpg",
+      "/projects/apgreat/3.jpg",
+      "/projects/apgreat/4.jpg",
+      "/projects/apgreat/5.jpg",
+      "/projects/apgreat/6.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/apgreat/0.webp",
+      "/projects/apgreat/1.webp",
+      "/projects/apgreat/2.webp",
+      "/projects/apgreat/3.webp",
+      "/projects/apgreat/4.webp",
+      "/projects/apgreat/5.webp",
+      "/projects/apgreat/6.webp"
+    ],
+    "buttons": [
+      {
+        "title": "Github",
+        "link": "https://github.com/myxzlpltk/stunting-laravel"
+      }
+    ]
+  },
+  {
     "name": "Warung Semur (Serba Murah)",
     "src": "/projects/warung-semur/0.jpg",
     "srcWebp": "/projects/warung-semur/0.webp",
