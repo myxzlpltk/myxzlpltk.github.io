@@ -73,7 +73,7 @@ const HeroSection = () => {
           <PingNotification>
             <ElevatedButton
               external
-              to="https://docs.google.com/document/d/1xLH3Dk8vcmizpPnb9Z0KvpRQFQuP8rbjqpbbZjcJFfM/view?usp=sharing"
+              to="https://docs.google.com/document/d/12uDNVITHi78HSfTZQ_Wfx1_HUZJvPFDka52V2gWsY08/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faFilePdf} className="mr-4" />
               <span>Download CV</span>
