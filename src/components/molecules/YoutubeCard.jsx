@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { Player } from "@lottiefiles/react-lottie-player";
 import PropTypes from "prop-types";
 import React, { Fragment, useRef, useState } from "react";
+import Text from "../atoms/Text";
 
 function YoutubeCard() {
   const [open, setOpen] = useState(false);
@@ -14,12 +14,7 @@ function YoutubeCard() {
         onClick={() => setOpen(true)}
         title="Something for your mind...."
       >
-        <Player
-          autoplay
-          loop
-          src="lottie/lf30_editor_tsww9nco.json"
-          style={{ width: "100%" }}
-        />
+        <Text subtitle2 className="text-center text-blue-600">🎶 Something for your mind...</Text>
       </div>
       <Transition.Root show={open} as={Fragment}>
         <Dialog
