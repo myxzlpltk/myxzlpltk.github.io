@@ -1,5 +1,6 @@
 [
   {
+    "id": "recoffeery",
     "name": "Recoffeery",
     "src": "/projects/recoffeery/0.jpg",
     "srcWebp": "/projects/recoffeery/0.webp",
@@ -40,6 +41,7 @@
     ]
   },
   {
+    "id": "java-code",
     "name": "Java Code",
     "src": "/projects/java-code/0.jpg",
     "srcWebp": "/projects/java-code/0.webp",
@@ -68,6 +70,7 @@
     ]
   },
   {
+    "id": "humanis",
     "name": "Humanis V2",
     "src": "/projects/humanis/0.jpg",
     "srcWebp": "/projects/humanis/0.webp",
@@ -90,6 +93,7 @@
     ]
   },
   {
+    "id": "flutix",
     "name": "Flutix",
     "src": "/projects/flutix/0.jpg",
     "srcWebp": "/projects/flutix/0.webp",
@@ -112,6 +116,7 @@
     ]
   },
   {
+    "id": "e-brent",
     "name": "E-Brent",
     "src": "/projects/e-brent/0.jpg",
     "srcWebp": "/projects/e-brent/0.webp",
@@ -132,6 +137,7 @@
     ]
   },
   {
+    "id": "apgreat",
     "name": "APGREAT",
     "src": "/projects/apgreat/0.jpg",
     "srcWebp": "/projects/apgreat/0.webp",
@@ -162,6 +168,7 @@
     ]
   },
   {
+    "id": "warung-semur",
     "name": "Warung Semur (Serba Murah)",
     "src": "/projects/warung-semur/0.jpg",
     "srcWebp": "/projects/warung-semur/0.webp",
@@ -190,6 +197,7 @@
     ]
   },
   {
+    "id": "e-library",
     "name": "e-Library",
     "src": "/projects/e-library/0.jpg",
     "srcWebp": "/projects/e-library/0.webp",
@@ -218,6 +226,7 @@
     ]
   },
   {
+    "id": "siotang",
     "name": "SIOTANG",
     "src": "/projects/siotang/0.jpg",
     "srcWebp": "/projects/siotang/0.webp",
@@ -246,6 +255,7 @@
     ]
   },
   {
+    "id": "knapsack",
     "name": "Fruit Parcel AI (Knapsack)",
     "src": "/projects/knapsack/0.jpg",
     "srcWebp": "/projects/knapsack/0.webp",
@@ -270,6 +280,7 @@
     ]
   },
   {
+    "id": "mulyotani",
     "name": "Mulyotani",
     "src": "/projects/mulyotani/0.jpg",
     "srcWebp": "/projects/mulyotani/0.webp",
@@ -294,6 +305,7 @@
     ]
   },
   {
+    "id": "burger",
     "name": "Burger",
     "src": "/projects/burger/0.jpg",
     "srcWebp": "/projects/burger/0.webp",
@@ -316,6 +328,7 @@
     ]
   },
   {
+    "id": "smart-school",
     "name": "Smart School",
     "src": "/projects/smart-school/0.jpg",
     "srcWebp": "/projects/smart-school/0.webp",

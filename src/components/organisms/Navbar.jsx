@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Disclosure } from "@headlessui/react";
 import React from "react";
 import NavItem from "../molecules/NavItem";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
   const navigation = [
     { name: "About Me", href: "about-me" },
     { name: "Portfolio", href: "portfolio" },
@@ -40,19 +42,22 @@ function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0-0 flex items-center">
-                  <img src="/images/logo.svg" alt="Logo" className="h-10" />
+                  <Link to="/">
+                    <img src="/images/logo.svg" alt="Logo" className="h-10" />
+                  </Link>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
-                    {navigation.map((item, i) => (
-                      <NavItem
-                        key={`nav-item-${i}`}
-                        name={item.name}
-                        href={item.href}
-                      />
-                    ))}
+                    {location.pathname === "/" &&
+                      navigation.map((item, i) => (
+                        <NavItem
+                          key={`nav-item-${i}`}
+                          name={item.name}
+                          href={item.href}
+                        />
+                      ))}
                   </div>
                 </div>
               </div>

@@ -9,6 +9,7 @@ import projects from "../../data/projects.json";
 import Text from "../atoms/Text";
 import ElevatedButton from "../molecules/ElevatedButton";
 import ProjectCard from "../molecules/ProjectCard";
+import { Link } from "react-router-dom";
 
 const PortfolioSection = () => {
   let [open, setOpen] = useState(false);
@@ -100,9 +101,15 @@ const PortfolioSection = () => {
                       as="h3"
                       className="mb-4 text-lg leading-6 font-medium text-gray-900 text-center"
                     >
-                      {project.name}
+                      <Link to={`/projects/${project.id}`}>{project.name}</Link>
                     </Dialog.Title>
-                    <Carousel className="mb-2" showIndicators={false} showThumbs={false} swipeable={true} emulateTouch={true}>
+                    <Carousel
+                      className="mb-2"
+                      showIndicators={false}
+                      showThumbs={false}
+                      swipeable={true}
+                      emulateTouch={true}
+                    >
                       {project.images.map((image, i) => (
                         <div key={`carousel-${i}`}>
                           {isWebpSupported() ? (
