@@ -41,6 +41,39 @@
     ]
   },
   {
+    "id": "siberpunk",
+    "name": "Siberpunk",
+    "src": "/projects/siberpunk/0.jpg",
+    "srcWebp": "/projects/siberpunk/0.webp",
+    "description": "An application that can detect document forgery to hide plagiarism for example illusive texts and fake fonts. Built with React, NodeJS, Firestore, Cloud Run, Cloud Storage, and PubSub.",
+    "images": [
+      "/projects/siberpunk/0.jpg",
+      "/projects/siberpunk/1.jpg",
+      "/projects/siberpunk/2.jpg",
+      "/projects/siberpunk/3.jpg"
+    ],
+    "imagesWebp": [
+      "/projects/siberpunk/0.webp",
+      "/projects/siberpunk/1.webp",
+      "/projects/siberpunk/2.webp",
+      "/projects/siberpunk/3.webp"
+    ],
+    "buttons": [
+      {
+        "title": "Demo",
+        "link": "https://siberpunk.web.app"
+      },
+      {
+        "title": "FE Git",
+        "link": "https://github.com/myxzlpltk/pre-plagiarism-frontend"
+      },
+      {
+        "title": "BE Git",
+        "link": "https://github.com/myxzlpltk/pre-plagiarism-backend"
+      }
+    ]
+  },
+  {
     "id": "java-code",
     "name": "Java Code",
     "src": "/projects/java-code/0.jpg",
