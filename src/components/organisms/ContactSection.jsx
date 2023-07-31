@@ -1,7 +1,7 @@
 import {
   faGithub,
+  faLinkedin,
   faReact,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,8 +13,8 @@ import ElevatedButton from "../molecules/ElevatedButton";
 
 const ContactSection = () => {
   let contacts = [
-    { icon: faTwitter, href: "https://twitter.com/myxzlpltk", name: "Twitter" },
     { icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github" },
+    { icon: faLinkedin, href: "https://www.linkedin.com/in/saddam-mukti", name: "LinkedIn" },
     { icon: faEnvelope, href: "mailto:myxzlpltk@gmail.com", name: "Email" },
   ];
 
