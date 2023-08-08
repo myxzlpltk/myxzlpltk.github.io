@@ -10,6 +10,7 @@ import Text from "../atoms/Text";
 import ElevatedButton from "../molecules/ElevatedButton";
 import ProjectCard from "../molecules/ProjectCard";
 import { Link } from "react-router-dom";
+import { iconAlt } from "../../utils";
 
 const PortfolioSection = () => {
   let [open, setOpen] = useState(false);
@@ -123,9 +124,21 @@ const PortfolioSection = () => {
                         </div>
                       ))}
                     </Carousel>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-gray-500 mb-4">
                       {project.description}
                     </p>
+                    <div className="flex gap-2">
+                      <p className="text-sm font-semibold">Tech Stack:</p>
+                      {project.stack.map((stack) => (
+                        <img
+                          key={`stack-${stack}`}
+                          src={`https://raw.githubusercontent.com/gilbarbara/logos/main/logos/${stack}.svg`}
+                          alt={iconAlt(stack)}
+                          title={iconAlt(stack)}
+                          className="inline h-4	w-auto"
+                        />
+                      ))}
+                    </div>
                   </div>
                 </div>
                 <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">

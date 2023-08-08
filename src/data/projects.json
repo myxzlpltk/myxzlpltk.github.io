@@ -5,6 +5,7 @@
     "src": "/projects/recoffeery/0.jpg",
     "srcWebp": "/projects/recoffeery/0.webp",
     "description": "An application that help coffee farmers detecting coffee disease by capturing its leaf. This application is using machine learning and cloud computing to support the tasks.",
+    "stack": ["android-icon", "kotlin-icon", "compose-multiplatform", "tensorflow", "go", "nodejs-icon", "google-cloud", "figma"],
     "images": [
       "/projects/recoffeery/0.jpg",
       "/projects/recoffeery/1.jpg",
@@ -46,6 +47,7 @@
     "src": "/projects/siberpunk/0.jpg",
     "srcWebp": "/projects/siberpunk/0.webp",
     "description": "An application that can detect document forgery to hide plagiarism for example illusive texts and fake fonts. Built with React, NodeJS, Firestore, Cloud Run, Cloud Storage, and PubSub.",
+    "stack": ["react", "nodejs-icon", "firebase", "redis", "tensorflow", "google-cloud"],
     "images": [
       "/projects/siberpunk/0.jpg",
       "/projects/siberpunk/1.jpg",
@@ -79,6 +81,7 @@
     "src": "/projects/java-code/0.jpg",
     "srcWebp": "/projects/java-code/0.webp",
     "description": "An application where certain users can order menus in the form of food or drinks. In addition to being a medium for ordering, the application also functions as a catalog of the menu itself.",
+    "stack": ["android-icon", "flutter", "figma"],
     "images": [
       "/projects/java-code/0.jpg",
       "/projects/java-code/1.jpg",
@@ -108,6 +111,7 @@
     "src": "/projects/humanis/0.jpg",
     "srcWebp": "/projects/humanis/0.webp",
     "description": "Intern project at PT. Venturo Pro Indonesia. My works limited only at slicing design into flutter application.",
+    "stack": ["android-icon", "flutter", "figma"],
     "images": [
       "/projects/humanis/0.jpg",
       "/projects/humanis/1.jpg",
@@ -131,6 +135,7 @@
     "src": "/projects/flutix/0.jpg",
     "srcWebp": "/projects/flutix/0.webp",
     "description": "Flutter ticketing app for movie theater. Built with firebase services enabling serverless application.",
+    "stack": ["android-icon", "flutter", "figma"],
     "images": [
       "/projects/flutix/0.jpg",
       "/projects/flutix/1.jpg",
@@ -154,6 +159,7 @@
     "src": "/projects/e-brent/0.jpg",
     "srcWebp": "/projects/e-brent/0.webp",
     "description": "An online and android application-based bicycle rental application to make it easier for people who want to use electric bicycles. This app is built using flutter and firebase.",
+    "stack": ["android-icon", "flutter", "figma"],
     "images": [
       "/projects/e-brent/0.jpg",
       "/projects/e-brent/1.jpg"
@@ -175,6 +181,7 @@
     "src": "/projects/apgreat/0.jpg",
     "srcWebp": "/projects/apgreat/0.webp",
     "description": "Apgreat provides a variety of meal plans and recipes that are designed to help moms prevent stunting. The app also includes educational resources about nutrition and healthy eating.",
+    "stack": ["laravel", "figma"],
     "images": [
       "/projects/apgreat/0.jpg",
       "/projects/apgreat/1.jpg",
@@ -206,6 +213,7 @@
     "src": "/projects/warung-semur/0.jpg",
     "srcWebp": "/projects/warung-semur/0.webp",
     "description": "E-Commerce for digital-based MSMEs that accommodates micro-economic activities between sellers and buyers. In this system, sellers can market their products and buyers can make transactions.",
+    "stack": ["laravel", "mysql-icon", "php-alt", "html-5"],
     "images": [
       "/projects/warung-semur/0.jpg",
       "/projects/warung-semur/1.jpg",
@@ -235,6 +243,7 @@
     "src": "/projects/e-library/0.jpg",
     "srcWebp": "/projects/e-library/0.webp",
     "description": "A web application that allows users to search for books and read them. The application also allows admin to add books to their library. This system is designed to meet the needs of e-book publishing.",
+    "stack": ["codeigniter-icon", "mysql-icon", "php-alt", "html-5", "javascript"],
     "images": [
       "/projects/e-library/0.jpg",
       "/projects/e-library/1.jpg",
@@ -264,6 +273,7 @@
     "src": "/projects/siotang/0.jpg",
     "srcWebp": "/projects/siotang/0.webp",
     "description": "This project aims to make ask-for-hand-signature in formalities & bureaucracy easier during pandemics. Basically this is an information system for signing the approval sheet for industrial work practice proposals. Built for Electrical Engineering UM.",
+    "stack": ["laravel", "mysql-icon", "php-alt", "html-5", "javascript"],
     "images": [
       "/projects/siotang/0.jpg",
       "/projects/siotang/1.jpg",
@@ -293,6 +303,7 @@
     "src": "/projects/knapsack/0.jpg",
     "srcWebp": "/projects/knapsack/0.webp",
     "description": "This project aims to solve the problem of finding the best combination of fruits to maximize the profit. The project is built using Dart and Flutter. The project is based on BFS algorithm for knapsack problem.",
+    "stack": ["flutter", "chrome"],
     "images": [
       "/projects/knapsack/0.jpg",
       "/projects/knapsack/1.jpg"
@@ -318,6 +329,7 @@
     "src": "/projects/mulyotani/0.jpg",
     "srcWebp": "/projects/mulyotani/0.webp",
     "description": "A simple landing page to promote automatic bird repellent device called \"Mulyotani\". So that rice plants can thrive and be free from pests.",
+    "stack": ["html-5", "css-3", "javascript"],
     "images": [
       "/projects/mulyotani/0.jpg",
       "/projects/mulyotani/1.jpg"
@@ -343,6 +355,7 @@
     "src": "/projects/burger/0.jpg",
     "srcWebp": "/projects/burger/0.webp",
     "description": "A simple burger web application that allows users to order burgers using drag and drop mechanism. The project is built using Javascript Drag Events.",
+    "stack": ["html-5", "css-3", "javascript"],
     "images": [
       "/projects/burger/0.jpg"
     ],
@@ -366,6 +379,7 @@
     "src": "/projects/smart-school/0.jpg",
     "srcWebp": "/projects/smart-school/0.webp",
     "description": "A private projects or ecosystem about multi-apps that connected via single login SAML. This projects aims to digitalize school system.",
+    "stack": ["codeigniter-icon", "mysql-icon", "php-alt", "html-5", "javascript"],
     "images": [
       "/projects/smart-school/0.jpg"
     ],
