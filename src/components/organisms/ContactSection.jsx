@@ -15,7 +15,7 @@ const ContactSection = () => {
   let contacts = [
     { icon: faGithub, href: "https://github.com/myxzlpltk", name: "Github" },
     { icon: faLinkedin, href: "https://www.linkedin.com/in/saddam-mukti", name: "LinkedIn" },
-    { icon: faEnvelope, href: "mailto:myxzlpltk@gmail.com", name: "Email" },
+    { icon: faEnvelope, href: "mailto:saddam.coder@gmail.com", name: "Email" },
   ];
 
   return (
@@ -37,7 +37,7 @@ const ContactSection = () => {
             </div>
             <div className="flex-1">
               <div className="flex items-center justify-center">
-                <ElevatedButton to="mailto:myxzlpltk@gmail.com">
+                <ElevatedButton to="mailto:saddam.coder@gmail.com">
                   <span>Let's do this!</span>
                 </ElevatedButton>
               </div>
