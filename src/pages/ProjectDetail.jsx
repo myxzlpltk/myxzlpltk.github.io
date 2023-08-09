@@ -6,6 +6,7 @@ import { isWebpSupported } from "react-image-webp/dist/utils";
 import Text from "../components/atoms/Text";
 import ElevatedButton from "../components/molecules/ElevatedButton";
 import Navbar from "../components/organisms/Navbar";
+import { iconAlt } from "../utils";
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
@@ -52,6 +53,19 @@ const ProjectDetail = () => {
           <Text body1 className="mb-4">
             {project.description}
           </Text>
+
+          <p className="text-sm font-semibold mb-2">Tech Stack:</p>
+          <div className="flex gap-2 mb-4">
+            {project.stack.map((stack) => (
+              <img
+                key={`stack-${stack}`}
+                src={`https://raw.githubusercontent.com/gilbarbara/logos/main/logos/${stack}.svg`}
+                alt={iconAlt(stack)}
+                title={iconAlt(stack)}
+                className="inline h-6	w-auto"
+              />
+            ))}
+          </div>
 
           <div className="flex space-x-2">
             {project.buttons.map((button, i) => (
