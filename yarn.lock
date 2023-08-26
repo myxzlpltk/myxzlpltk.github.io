@@ -7708,6 +7708,11 @@ react-scroll@^1.8.6:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
+react-use-downloader@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/react-use-downloader/-/react-use-downloader-1.2.4.tgz#ff23b4830b1194a6899565d7441c5c7991e5c491"
+  integrity sha512-ciPb5SSKaDymZoWdaHrNbJpa20riR0fgUni48cBTseoptAMG8SEATX33UCNPGwnpZ5BFybFdTCus37KLibj8oA==
+
 react@^17.0.0, react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"

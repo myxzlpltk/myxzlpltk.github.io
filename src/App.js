@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import ProjectDetail from "./pages/ProjectDetail";
 import Portal from "./pages/Portal";
 import Swapper from "./pages/Swapper";
+import ModuleDetail from "./pages/ModuleDetail";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects/:projectId" element={<ProjectDetail />} />
+          <Route path="/modules/:moduleId" element={<ModuleDetail />} />
           <Route path="/portal" element={<Portal />} />
           <Route path="/swapper" element={<Swapper />} />
         </Routes>

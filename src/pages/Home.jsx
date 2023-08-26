@@ -6,6 +6,7 @@ import ContactSection from "../components/organisms/ContactSection";
 import HeroSection from "../components/organisms/HeroSection";
 import Navbar from "../components/organisms/Navbar";
 import PortfolioSection from "../components/organisms/PortfolioSection";
+import ModulesSection from "../components/organisms/ModulesSection";
 
 const Home = () => (
   <div>
@@ -13,6 +14,7 @@ const Home = () => (
     <HeroSection />
     <PortfolioSection />
     <ArticlesSection />
+    <ModulesSection />
     <ContactSection />
   </div>
 );

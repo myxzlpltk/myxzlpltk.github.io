@@ -13,6 +13,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-image-webp": "^0.8.0",
@@ -20,6 +21,7 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.6",
+    "react-use-downloader": "^1.2.4",
     "web-vitals": "^2.1.2"
   },
   "scripts": {

@@ -28,7 +28,7 @@ function ElevatedButton(props) {
         className={classNames(
           "rounded-md inline-flex items-center justify-center border border-transparent bg-indigo-600 hover:bg-indigo-700 drop-shadow-xl",
           props.className,
-          props.compact ? "px-4 py-1" : "px-8 py-3 md:py-4 md:px-1,0"
+          props.compact ? "px-4 py-1" : "px-8 py-3 md:py-4 md:px-8"
         )}
       >
         <Text button className="text-white">

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "laravel",
+    "title": "Introduction to Laravel Framework",
+    "imageUrl": "/modules/laravel.jpg",
+    "imageUrlWebp": "/modules/laravel.webp",
+    "modules": [
+      {
+        "name": "Modul 13 PHP Object Oriented",
+        "file": "Modul 13 PHP Object Oriented.pdf"
+      },
+      {
+        "name": "Modul 14 Pengenalan Laravel",
+        "file": "Modul 14 Pengenalan Laravel.pdf"
+      },
+      {
+        "name": "Modul 15 Studi Kasus",
+        "file": "Modul 15 Studi Kasus.pdf"
+      },
+      {
+        "name": "Modul 16 Membuat Model Migration dan Seeder",
+        "file": "Modul 16 Membuat Model Migration dan Seeder.pdf"
+      },
+      {
+        "name": "Modul 17 Membuat Layout Template Blade",
+        "file": "Modul 17 Membuat Layout Template Blade.pdf"
+      },
+      {
+        "name": "Modul 18 Menambahkan Sistem Autentikasi",
+        "file": "Modul 18 Menambahkan Sistem Autentikasi.pdf"
+      },
+      {
+        "name": "Modul 19 CRUD Model dan Resource Controller",
+        "file": "Modul 19 CRUD Model dan Resource Controller.pdf"
+      },
+      {
+        "name": "Modul 20 Menambahkan Fitur Pencarian",
+        "file": "Modul 20 Menambahkan Fitur Pencarian.pdf"
+      },
+      {
+        "name": "Modul 21 Statistik dan Grafik",
+        "file": "Modul 21 Statistik dan Grafik.pdf"
+      }
+    ]
+  },
+  {
+    "id": "algorithm",
+    "title": "Introduction to Algorithm and C++",
+    "imageUrl": "/modules/algorithm.jpg",
+    "imageUrlWebp": "/modules/algorithm.webp",
+    "modules": [
+      {
+        "name": "Modul 1 Pengenalan Pemrograman dan Struktur Program C++",
+        "file": "Modul 1 Pengenalan Pemrograman dan Struktur Program C++.pdf"
+      },
+      {
+        "name": "Modul 2 Variabel, Tipe Data, Konstanta, dan Operator",
+        "file": "Modul 2 Variabel, Tipe Data, Konstanta, dan Operator.pdf"
+      },
+      {
+        "name": "Modul 3 Operasi Dasar Masukan dan Keluaran",
+        "file": "Modul 3 Operasi Dasar Masukan dan Keluaran.pdf"
+      },
+      {
+        "name": "Modul 4 Operasi Kondisi dan Percabangan",
+        "file": "Modul 4 Operasi Kondisi dan Percabangan.pdf"
+      },
+      {
+        "name": "Modul 5 Operasi Perulangan",
+        "file": "Modul 5 Operasi Perulangan.pdf"
+      },
+      {
+        "name": "Modul 6 Fungsi",
+        "file": "Modul 6 Fungsi.pdf"
+      },
+      {
+        "name": "Modul 7 Array dan String",
+        "file": "Modul 7 Array dan String.pdf"
+      },
+      {
+        "name": "Modul 8 Pointer",
+        "file": "Modul 8 Pointer.pdf"
+      },
+      {
+        "name": "Modul 9 Pengelolaan File",
+        "file": "Modul 9 Pengelolaan File.pdf"
+      }
+    ]
+  }
+]
