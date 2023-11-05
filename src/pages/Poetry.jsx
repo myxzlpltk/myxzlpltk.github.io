@@ -15,7 +15,7 @@ const Poetry = () => {
     const content = response.text()
     setSelected(item)
     setContent(content)
-    setOpen(open)
+    setOpen(true)
   }
 
   const closeModal = () => setOpen(false)
