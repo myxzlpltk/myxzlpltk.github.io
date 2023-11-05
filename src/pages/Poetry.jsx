@@ -12,9 +12,9 @@ const Poetry = () => {
 
   const openModal = async (item) => {
     const response = await fetch(item.url)
-    const content = response.text()
+    const text = await response.text()
     setSelected(item)
-    setContent(content)
+    setContent(text)
     setOpen(true)
   }
 
