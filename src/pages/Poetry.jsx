@@ -10,13 +10,12 @@ const Poetry = () => {
   const [selected, setSelected] = useState(poetry[0])
   const [open, setOpen] = useState(false)
 
-  const openModal = (item) => {
-    setContent("");
+  const openModal = async (item) => {
+    const response = await fetch(item.url)
+    const content = response.text()
     setSelected(item)
-    setOpen(true)
-    fetch(item.url)
-      .then(r => r.text())
-      .then(text => setContent(text))
+    setContent(content)
+    setOpen(open)
   }
 
   const closeModal = () => setOpen(false)

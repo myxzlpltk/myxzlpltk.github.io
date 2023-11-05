@@ -1,9 +1,5 @@
-import {
-  faGithub,
-  faLinkedin,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faHeart, faPen } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faHeart, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
@@ -71,7 +67,7 @@ const ContactSection = () => {
             ))}
             <Link to="/poetry">
               <div className="flex items-center justify-center rounded-full border-2 border-white text-white hover:text-indigo-700 hover:bg-white duration-300 mb-4 mx-2 p-4">
-                <FontAwesomeIcon icon={faPen} />
+                <FontAwesomeIcon icon={faPencilAlt} />
               </div>
             </Link>
           </div>
