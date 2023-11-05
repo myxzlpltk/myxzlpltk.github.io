@@ -1615,6 +1615,36 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@react-aria/ssr@^3.6.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@react-aria/ssr/-/ssr-3.8.0.tgz#e7f467ac42f72504682724304ce221f785d70d49"
+  integrity sha512-Y54xs483rglN5DxbwfCPHxnkvZ+gZ0LbSYmR72LyWPGft8hN/lrl1VRS1EW2SMjnkEWlj+Km2mwvA3kEHDUA0A==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/utils@3.17.0":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@react-aria/utils/-/utils-3.17.0.tgz#b462afad9a25505394a714a69b9f238c24dd15a7"
+  integrity sha512-NEul0cQ6tQPdNSHYzNYD+EfFabeYNvDwEiHB82kK/Tsfhfm84SM+baben/at2N51K7iRrJPr5hC5fi4+P88lNg==
+  dependencies:
+    "@react-aria/ssr" "^3.6.0"
+    "@react-stately/utils" "^3.6.0"
+    "@react-types/shared" "^3.18.1"
+    "@swc/helpers" "^0.4.14"
+    clsx "^1.1.1"
+
+"@react-stately/utils@^3.6.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@react-stately/utils/-/utils-3.8.0.tgz#88a45742c58bde804f6cbecb20ea3833915cfdf0"
+  integrity sha512-wCIoFDbt/uwNkWIBF+xV+21k8Z8Sj5qGO3uptTcVmjYcZngOaGGyB4NkiuZhmhG70Pkv+yVrRwoC1+4oav9cCg==
+  dependencies:
+    "@swc/helpers" "^0.5.0"
+
+"@react-types/shared@^3.18.1":
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/@react-types/shared/-/shared-3.21.0.tgz#1af41fdf7dfbdbd33bbc1210617c43ed0d4ef20c"
+  integrity sha512-wJA2cUF8dP4LkuNUt9Vh2kkfiQb2NLnV2pPXxVnKJZ7d4x2/7VPccN+LYPnH8m0X3+rt50cxWuPKQmjxSsCFOg==
+
 "@remix-run/router@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.0.2.tgz#1c17eadb2fa77f80a796ad5ea9bf108e6993ef06"
@@ -1793,6 +1823,21 @@
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
+
+"@swc/helpers@^0.4.14":
+  version "0.4.36"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.36.tgz#fcfff76ed52c214f357e8e9d3f37b568908072d9"
+  integrity sha512-5lxnyLEYFskErRPenYItLRSge5DjrJngYKdVjRSrWfza9G6KkgHEXi0vUZiyUeMU5JfXH1YnvXZzSp8ul88o2Q==
+  dependencies:
+    legacy-swc-helpers "npm:@swc/helpers@=0.4.14"
+    tslib "^2.4.0"
+
+"@swc/helpers@^0.5.0":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.3.tgz#98c6da1e196f5f08f977658b80d6bd941b5f294f"
+  integrity sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==
+  dependencies:
+    tslib "^2.4.0"
 
 "@tailwindcss/forms@^0.5.3":
   version "0.5.3"
@@ -3154,6 +3199,11 @@ cliui@^8.0.1:
     string-width "^4.2.0"
     strip-ansi "^6.0.1"
     wrap-ansi "^7.0.0"
+
+clsx@^1.1.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 co@^4.6.0:
   version "4.6.0"
@@ -6109,6 +6159,13 @@ language-tags@^1.0.5:
   dependencies:
     language-subtag-registry "~0.3.2"
 
+"legacy-swc-helpers@npm:@swc/helpers@=0.4.14":
+  version "0.4.14"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
+  integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
+  dependencies:
+    tslib "^2.4.0"
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -7616,6 +7673,13 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-modal-sheet@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-modal-sheet/-/react-modal-sheet-2.2.0.tgz#ad62a507d6b9e8fbc2d911519d132bffd31f632d"
+  integrity sha512-OAIWuVWxMx3zQqrMLbYWnczadplg0WLd+AaBWmN5+ysNF5/pneqjkOV3AWaIZOCIF4TcrejiCsTduutbzCRP2Q==
+  dependencies:
+    "@react-aria/utils" "3.17.0"
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -8716,6 +8780,11 @@ tslib@^2.0.3:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tslib@^2.4.0:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 tsutils@^3.21.0:
   version "3.21.0"
