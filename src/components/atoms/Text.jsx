@@ -8,7 +8,7 @@ function Text(props) {
       <h1
         className={classNames(
           props.className,
-          "text-7xl font-serif font-extrabold tracking-tighte,r"
+          "text-7xl font-serif font-extrabold tracking-tighter"
         )}
       >
         {props.children}
