@@ -4,13 +4,13 @@ import { Dialog, Transition } from "@headlessui/react";
 import React, { useState } from "react";
 import { isWebpSupported } from "react-image-webp/dist/utils";
 import { Carousel } from "react-responsive-carousel";
-import { Fragment } from "react/cjs/react.production.min";
 import projects from "../../data/projects.json";
 import Text from "../atoms/Text";
 import ElevatedButton from "../molecules/ElevatedButton";
 import ProjectCard from "../molecules/ProjectCard";
 import { Link } from "react-router-dom";
 import { iconAlt } from "../../utils";
+import { Fragment } from "react";
 
 const PortfolioSection = () => {
   let [open, setOpen] = useState(false);

@@ -3,11 +3,10 @@ import {
   faLinkedin,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faHeart, faPen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { Fragment } from "react/cjs/react.production.min";
 import Text from "../atoms/Text";
 import ElevatedButton from "../molecules/ElevatedButton";
 
@@ -70,6 +69,11 @@ const ContactSection = () => {
                 </div>
               </a>
             ))}
+            <Link to="/poetry">
+              <div className="flex items-center justify-center rounded-full border-2 border-white text-white hover:text-indigo-700 hover:bg-white duration-300 mb-4 mx-2 p-4">
+                <FontAwesomeIcon icon={faPen} />
+              </div>
+            </Link>
           </div>
           <Text body2 className="text-white text-center mx-auto">
             <span>Made with</span>
