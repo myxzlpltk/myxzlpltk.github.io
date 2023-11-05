@@ -38,7 +38,7 @@ const Poetry = () => {
             {poetry.map((item) => (
               <div className="bg-white shadow-lg rounded-lg p-3 hover:bg-blue-50 cursor-pointer" onClick={() => openModal(item)}>
                 <Text subtitle2 className="mb-2">{item.title}</Text>
-                <Text className="line-clamp-2">{item.content}</Text>
+                <Text className="line-clamp-2"><div dangerouslySetInnerHTML={{ __html: item.content.replace("\n", "<br>") }} />...</Text>
               </div>
             ))}
           </div>
