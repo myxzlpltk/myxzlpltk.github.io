@@ -1,6 +1,6 @@
-Sometimes i remember how interesting he was\
+Sometimes i remember how interesting you was\
 I always thought that I'm not enough\
-Meeting him was awesome\
+Meeting (pronoun) was awesome\
 Suddenly my very existence awesome\
 Everything is awesome\
 I finally care about someone other than me\
