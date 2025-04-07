@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import ScrollToTop from "./components/atoms/ScrollToTop";
 import Home from "./pages/Home";
 import ModuleDetail from "./pages/ModuleDetail";
@@ -11,7 +11,7 @@ import SeoTools from "./pages/SeoTools";
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,6 +23,6 @@ export default function App() {
           <Route path="/seo" element={<SeoTools />} />
         </Routes>
       </ScrollToTop>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
