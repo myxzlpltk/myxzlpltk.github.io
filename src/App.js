@@ -7,6 +7,7 @@ import Poetry from "./pages/Poetry";
 import Portal from "./pages/Portal";
 import ProjectDetail from "./pages/ProjectDetail";
 import Swapper from "./pages/Swapper";
+import SeoTools from "./pages/SeoTools";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/portal" element={<Portal />} />
           <Route path="/swapper" element={<Swapper />} />
           <Route path="/poetry" element={<Poetry />} />
+          <Route path="/seo" element={<SeoTools />} />
         </Routes>
       </ScrollToTop>
     </HashRouter>
